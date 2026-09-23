@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ar:ApplicationResponse xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ar="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2"><ext:UBLExtensions><ext:UBLExtension><ext:ExtensionContent><Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+  <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/>
+  <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+  <Reference URI="">
+    <Transforms>
+      <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+      <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/>
+    </Transforms>
+    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    <DigestValue>t/KrRJaD994EUDr44oqzk6P5O2E=</DigestValue>
+  </Reference>
+</SignedInfo>
+    <SignatureValue>0MDuEwWusrczY2RTgVZ0sy4Q4YvI+gAURsXy0ENJcpFyqM/Gw+Hw65TMnw6sa2GBnCQVLtj2d2Rot9Ey+WJ/B+S4ScrFuznsVXq8y9bnxyJURSb10tDVj8PKjwldkDXuJmz/gFAR8kuqlfalK/fJ/tbDKRol8Xiu1ChJeb10PJWOLJCFqy8pJk0bNCUV8Jpzn5endDRdIYHjCQxZ0iWGUlYvICVXgsd4TOBBBp/g3KDGgxGzmjLQxWZRkKtEPbb2AfU2wNeDSWPySQGwyFQIZL0cPu+wQWsGgXxCgtOP8r4fclPPREQHoYNzR45w4EUEhrgopy55GQr4Zmvji6S0Jg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFrjCCBJagAwIBAgIIf9Td7Evg0UswDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcNMjQwODA5MTYxNTM5WhcNMjcwODA5MTYxNTAwWjCCAVQxKzApBgNVBAkMIkFWLiBHQVJDSUxBU08gREUgTEEgVkVHQSBOUk8uIDE0NzIxIjAgBgkqhkiG9w0BCQEWE3JtZXphZ0BzdW5hdC5nb2IucGUxQTA/BgNVBAMMOFNVUEVSSU5ULiBOQUMuIERFIEFEVUFOQVMgWSBERSBBRE1JTklTVFJBQ0lPTiBUUklCVVRBUklBMRwwGgYDVQQLDBNBR0VOVEUgQVVUT01BVElaQURPMS4wLAYDVQQLDCVWYWxpZGFkbyBwb3IgQUJDIElERU5USURBRCBESUdJVEFMIEVSMVQwUgYDVQQKDEtTVVBFUklOVEVOREVOQ0lBIE5BQ0lPTkFMIERFIEFEVUFOQVMgWSBERSBBRE1JTklTVFJBQ0lPTiBUUklCVVRBUklBIC0gU1VOQVQxDTALBgNVBAcMBExJTUExCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1apapJOwMj9tBpgKAgjRwIloUk+xwvQZxc0s/4yl4mDSrc/F/PKZ3QBmKb43fFwivqPUvsr68fQTfyLKM14B+xXwlbQ/yh3+87sMyulLhOPmtSOU0PE8Rw0PsmGVxf1L0HPAPc3Gvuhq4Z9Dx5ByED6s+VppDmncvctlJ/NrzYZCk9H91OinTTPVZrDtbmqnOYra8PaTRoCI9Fmndeo9Oo7esM7KVX9f53NEd/mNQqzAOrgSXthFuBZN7zOsGxJ4ZGrVzHSlCH/jFLgObEizHrqisgL1cxKj8QvbGLUjNtUuTvR5IY6hwRLCxbliTa84BN10E0jC7hhAnnuEIAFJiwIDAQABo4IBjjCCAYowDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRdiFut62X7/mii5NlvPVdyou8rmTBnBggrBgEFBQcBAQRbMFkwNQYIKwYBBQUHMAKGKWh0dHA6Ly9jcnQubGxhbWEucGUvbGxhbWFwZXN0YW5kYXJkY2EuY2VyMCAGCCsGAQUFBzABhhRodHRwOi8vb2NzcC5sbGFtYS5wZTAeBgNVHREEFzAVgRNybWV6YWdAc3VuYXQuZ29iLnBlMEYGA1UdIAQ/MD0wOwYNKwYBBAGDl3cAAQADATAqMCgGCCsGAQUFBwIBFhxodHRwczovL2xsYW1hLnBlL3JlcG9zaXRvcnkvMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDA6BgNVHR8EMzAxMC+gLaArhilodHRwOi8vY3JsLmxsYW1hLnBlL2xsYW1hcGVzdGFuZGFyZGNhLmNybDAdBgNVHQ4EFgQUuRkPCyM25gAu5se9GraC/UO07X8wDgYDVR0PAQH/BAQDAgbAMA0GCSqGSIb3DQEBCwUAA4IBAQBC8+YM7moZ7bKYCS+VzJ8wzydSboWeNuAs2CfkhI8hRMQr1r5WZg8pDlroCslF/r6SjbkrjuDHcGKJTM2riGEjlOD4CLU9VjOP7Td6CIZyJRLaz63pZYOwE0H0weG/PvYpopDZzJ6AXYzZxwYkJ03/x/vwaCss9ZvmsEn2E1xtGbnMe9MEsg8oF0ul3uRn8Qy5gF37fM7YKuF/r4iBS5uSvBcA5J2FbI/PQls7OgICDyb3W16GeluaT9krY5wQxilJSpGVU++nv5NzmRHkquH3ic2It/KP6MZ9X2tfg6FhpF6JaUz7MSY+J0KnDDcfJlhxgnkgoT5tV3Sr6z5PpQH6</X509Certificate><X509IssuerSerial><X509IssuerName>C=PE, O=LLAMA.PE, CN=Llama.pe SHA256 Standard CA</X509IssuerName><X509SerialNumber>9211231144834552139</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo><Proposito>Cumple proposito</Proposito><Revocacion>Cumple revocacion</Revocacion><TSL>Cumple tsl</TSL><Expiracion>No ha expirado</Expiracion></Signature></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions>
+	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+	<cbc:CustomizationID>1.0</cbc:CustomizationID>
+	<cbc:ID><![CDATA[3a83998a-1d8e-4a79-a5b2-4a539fa2a864]]></cbc:ID>
+	<cbc:IssueDate>2026-09-18</cbc:IssueDate>
+	<cbc:IssueTime>17:07:26.650</cbc:IssueTime>
+	<cbc:ResponseDate>2026-09-18</cbc:ResponseDate>
+	<cbc:ResponseTime>17:07:26.847</cbc:ResponseTime>
+	<cac:Signature>
+		<cbc:ID><![CDATA[SignSUNAT]]></cbc:ID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID><![CDATA[20131312955]]></cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[SUNAT]]></cbc:Name>
+			</cac:PartyName>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>#SignSUNAT</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+				<cbc:Note><![CDATA[4186 - cbc:Note - El campo observaciones supera la cantidad maxima especificada (250 carᣴeres). : 4186INFO: errorCode 4186 (nodo: "cbc:Note/" valor: "AGENCIA MARVISUR
+ATENCIÃ&#x93;N: GABRIEL MANRIQUE QUISPE DNI 73865078 CEL. 960131808
+CRISTHIAN GOMEZ PUMACAYO, DNI 40734156, CEL. 960131808
+OC - 10,608")]]></cbc:Note>
+				<cbc:Note><![CDATA[4391 - El Numero de Registro MTC del transportista no existe o no contiene informacion : 4391INFO: errorCode 4391 (nodo: "/" valor: "")]]></cbc:Note>
+	<cac:SenderParty>
+		<cac:PartyIdentification>
+			<cbc:ID><![CDATA[20131312955]]></cbc:ID>
+		</cac:PartyIdentification>
+	</cac:SenderParty>
+	<cac:ReceiverParty>
+		<cac:PartyIdentification>
+			<cbc:ID><![CDATA[20492641431]]></cbc:ID>
+		</cac:PartyIdentification>
+	</cac:ReceiverParty>
+	<cac:DocumentResponse>
+		<cac:Response>
+			<cbc:ReferenceID>TR30-00001311</cbc:ReferenceID>
+				<cbc:ResponseCode>0</cbc:ResponseCode>
+				<cbc:Description><![CDATA[El Comprobante numero TR30-00001311, ha sido aceptado]]></cbc:Description>
+		</cac:Response>
+		<cac:DocumentReference>
+			<cbc:ID><![CDATA[TR30-00001311]]></cbc:ID>
+				<cbc:DocumentDescription>https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU+LIRh9icZYCBAswTMAFTHko4JwZiTPzCnvsLwDY47SSCmkxWtmjhuTXrzSOrbIgoO+f1xwrYKL57q8R+74eMf4=</cbc:DocumentDescription>
+		</cac:DocumentReference>
+		<cac:RecipientParty>
+			<cac:PartyIdentification>
+				<cbc:ID><![CDATA[6-20495175210]]></cbc:ID>
+			</cac:PartyIdentification>
+		</cac:RecipientParty>
+	</cac:DocumentResponse>
+</ar:ApplicationResponse>

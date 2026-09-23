@@ -1,0 +1,937 @@
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 11:45:16"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 11:45:30"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:07:35"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:15:26"}
+{"level":"error","message":"Error listando guías pendientes:","service":"greenter-api","timestamp":"2026-08-21 12:15:48"}
+{"level":"error","message":"Error listando guías pendientes:","service":"greenter-api","timestamp":"2026-08-21 12:15:57"}
+{"level":"error","message":"Error listando guías pendientes:","service":"greenter-api","timestamp":"2026-08-21 12:15:58"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:19:51"}
+{"level":"error","message":"Error listando guías pendientes:","service":"greenter-api","timestamp":"2026-08-21 12:19:54"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:20:47"}
+{"level":"error","message":"Error obteniendo detalle:","service":"greenter-api","timestamp":"2026-08-21 12:21:01"}
+{"level":"error","message":"Error obteniendo detalle:","service":"greenter-api","timestamp":"2026-08-21 12:21:24"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:21:44"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:21:46"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:21:51"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:21:59"}
+{"level":"error","message":"Error obteniendo detalle:","service":"greenter-api","timestamp":"2026-08-21 12:22:06"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:22:41"}
+{"level":"error","message":"Error obteniendo detalle:","service":"greenter-api","timestamp":"2026-08-21 12:22:47"}
+{"level":"error","message":"Error obteniendo detalle:","service":"greenter-api","timestamp":"2026-08-21 12:22:52"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:24:03"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:24:49"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:24:55"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:42:37"}
+{"level":"error","message":"Error obteniendo detalle:","service":"greenter-api","timestamp":"2026-08-21 12:42:46"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:44:04"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:44:54"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:46:50"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:46:52"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:46:56"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:46:58"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:47:01"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:47:03"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:47:23"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:47:24"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:47:26"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:47:35"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:47:37"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:47:40"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:47:42"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:49:16"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:57:08"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 12:57:31"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 13:00:05"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 13:00:28"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 13:00:38"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 13:05:34"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:10:37"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:20:57"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-21 17:21:45"}
+{"level":"info","message":"XML generado: 5540 bytes","service":"greenter-api","timestamp":"2026-08-21 17:21:45"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-21 17:21:46"}
+{"level":"error","message":"Error al obtener token SUNAT:","service":"greenter-api","timestamp":"2026-08-21 17:21:46"}
+{"level":"error","message":"Error emitiendo GRE: Error SUNAT Auth: Request failed with status code 401","service":"greenter-api","timestamp":"2026-08-21 17:21:46"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-21 17:21:46"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-21 17:22:00"}
+{"level":"info","message":"XML generado: 5540 bytes","service":"greenter-api","timestamp":"2026-08-21 17:22:00"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-21 17:22:00"}
+{"level":"error","message":"Error al obtener token SUNAT:","service":"greenter-api","timestamp":"2026-08-21 17:22:00"}
+{"level":"error","message":"Error emitiendo GRE: Error SUNAT Auth: Request failed with status code 401","service":"greenter-api","timestamp":"2026-08-21 17:22:00"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-21 17:22:01"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-21 17:22:25"}
+{"level":"info","message":"XML generado: 5540 bytes","service":"greenter-api","timestamp":"2026-08-21 17:22:25"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-21 17:22:25"}
+{"level":"error","message":"Error al obtener token SUNAT:","service":"greenter-api","timestamp":"2026-08-21 17:22:25"}
+{"level":"error","message":"Error emitiendo GRE: Error SUNAT Auth: Request failed with status code 401","service":"greenter-api","timestamp":"2026-08-21 17:22:25"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-21 17:22:26"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:24:15"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:24:18"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:24:23"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:24:26"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:24:31"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:24:33"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:28:44"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:28:53"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:28:59"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:29:16"}
+{"level":"error","message":"Error al obtener token SUNAT [400]: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-21 17:29:25"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:31:08"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-21 17:31:15"}
+{"level":"info","message":"XML generado: 5540 bytes","service":"greenter-api","timestamp":"2026-08-21 17:31:15"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-21 17:31:15"}
+{"level":"error","message":"Error al obtener token SUNAT [400]: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-21 17:31:16"}
+{"level":"error","message":"Error emitiendo GRE: Error SUNAT Auth 400: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-21 17:31:16"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-21 17:31:16"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:33:02"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-21 17:33:11"}
+{"level":"info","message":"XML generado: 5540 bytes","service":"greenter-api","timestamp":"2026-08-21 17:33:11"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-21 17:33:11"}
+{"level":"error","message":"Error al obtener token SUNAT [400]: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-21 17:33:11"}
+{"level":"error","message":"Error emitiendo GRE: Error SUNAT Auth 400: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-21 17:33:11"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-21 17:33:12"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-21 17:33:39"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-21 17:33:47"}
+{"level":"info","message":"XML generado: 5540 bytes","service":"greenter-api","timestamp":"2026-08-21 17:33:47"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-21 17:33:47"}
+{"level":"error","message":"Error al obtener token SUNAT [400]: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-21 17:33:47"}
+{"level":"error","message":"Error emitiendo GRE: Error SUNAT Auth 400: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-21 17:33:47"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-21 17:33:47"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 09:50:32"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 15:28:09"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 15:30:30"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 15:31:15"}
+{"level":"info","message":"Iniciando emisión GRE: T001-00005158","service":"greenter-api","timestamp":"2026-08-24 15:32:39"}
+{"level":"info","message":"XML generado: 13190 bytes","service":"greenter-api","timestamp":"2026-08-24 15:32:39"}
+{"level":"error","message":"Error emitiendo GRE: Certificado PFX no encontrado: certificates/20607129470PFX","service":"greenter-api","timestamp":"2026-08-24 15:32:39"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-24 15:32:39"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 15:44:00"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 15:44:24"}
+{"level":"info","message":"XML generado: 5554 bytes","service":"greenter-api","timestamp":"2026-08-24 15:44:24"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-24 15:44:24"}
+{"level":"error","message":"Error al obtener token SUNAT [400]: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-24 15:44:24"}
+{"level":"error","message":"Error emitiendo GRE: Error SUNAT Auth 400: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-24 15:44:24"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-24 15:44:25"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 15:45:27"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 15:45:36"}
+{"level":"info","message":"XML generado: 5554 bytes","service":"greenter-api","timestamp":"2026-08-24 15:45:36"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-24 15:45:36"}
+{"level":"error","message":"Error al obtener token SUNAT [400]: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-24 15:45:36"}
+{"level":"error","message":"Error emitiendo GRE: Error SUNAT Auth 400: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-24 15:45:36"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-24 15:45:36"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 15:48:03"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 15:48:16"}
+{"level":"info","message":"XML generado: 5554 bytes","service":"greenter-api","timestamp":"2026-08-24 15:48:16"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-24 15:48:16"}
+{"level":"error","message":"Error al obtener token SUNAT [400]: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-24 15:48:16"}
+{"level":"error","message":"Error emitiendo GRE: Error SUNAT Auth 400: {\"error_description\":\"Error en la autenticacion del usuario.\",\"error\":\"access_denied\"}","service":"greenter-api","timestamp":"2026-08-24 15:48:16"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-24 15:48:16"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 15:50:50"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 15:51:08"}
+{"level":"info","message":"XML generado: 5554 bytes","service":"greenter-api","timestamp":"2026-08-24 15:51:08"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-24 15:51:08"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-24 15:51:08"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 15:51:08"}
+{"level":"info","message":"GRE enviada. Ticket: 14d37e5f-74c4-460f-8f32-de35db73b723","service":"greenter-api","timestamp":"2026-08-24 15:51:08"}
+{"level":"info","message":"GRE enviada. Ticket: 14d37e5f-74c4-460f-8f32-de35db73b723","service":"greenter-api","timestamp":"2026-08-24 15:51:08"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 16:55:46"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-24 16:55:53"}
+{"level":"error","message":"GRE rechazada. Ticket 14d37e5f-74c4-460f-8f32-de35db73b723: 0306 - Error al ValidarEsquema:  SAXException No se puede leer (parsear) el archivo XML: cvc-complex-type.2.4.a: Invalid content was found starting with element 'cbc:TransportModeCode'. One of '{\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":InsuranceValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredCustomsValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredForCarriageValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredStatisticsValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":FreeOnBoardValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":SpecialInstructions, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeliveryInstructions, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":SplitConsignmentIndicator, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":ConsignmentQuantity, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":Consignment, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":GoodsItem, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ShipmentStage, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":Delivery, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":TransportHandlingUnit, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ReturnAddress, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":OriginAddress, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":FirstArrivalPortLocation, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":LastExitPortLocation, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ExportCountry, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":FreightAllowanceCharge}' is expected.","service":"greenter-api","timestamp":"2026-08-24 16:55:53"}
+{"level":"warn","message":"No se pudo sincronizar estado en BD:","service":"greenter-api","timestamp":"2026-08-24 16:55:54"}
+{"level":"error","message":"GRE rechazada. Ticket 14d37e5f-74c4-460f-8f32-de35db73b723: 0306 - Error al ValidarEsquema:  SAXException No se puede leer (parsear) el archivo XML: cvc-complex-type.2.4.a: Invalid content was found starting with element 'cbc:TransportModeCode'. One of '{\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":InsuranceValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredCustomsValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredForCarriageValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredStatisticsValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":FreeOnBoardValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":SpecialInstructions, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeliveryInstructions, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":SplitConsignmentIndicator, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":ConsignmentQuantity, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":Consignment, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":GoodsItem, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ShipmentStage, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":Delivery, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":TransportHandlingUnit, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ReturnAddress, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":OriginAddress, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":FirstArrivalPortLocation, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":LastExitPortLocation, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ExportCountry, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":FreightAllowanceCharge}' is expected.","service":"greenter-api","timestamp":"2026-08-24 16:57:25"}
+{"level":"warn","message":"No se pudo sincronizar estado en BD:","service":"greenter-api","timestamp":"2026-08-24 16:57:26"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 17:08:23"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-24 17:09:01"}
+{"level":"error","message":"GRE rechazada. Ticket 14d37e5f-74c4-460f-8f32-de35db73b723: 0306 - Error al ValidarEsquema:  SAXException No se puede leer (parsear) el archivo XML: cvc-complex-type.2.4.a: Invalid content was found starting with element 'cbc:TransportModeCode'. One of '{\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":InsuranceValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredCustomsValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredForCarriageValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredStatisticsValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":FreeOnBoardValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":SpecialInstructions, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeliveryInstructions, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":SplitConsignmentIndicator, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":ConsignmentQuantity, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":Consignment, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":GoodsItem, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ShipmentStage, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":Delivery, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":TransportHandlingUnit, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ReturnAddress, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":OriginAddress, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":FirstArrivalPortLocation, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":LastExitPortLocation, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ExportCountry, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":FreightAllowanceCharge}' is expected.","service":"greenter-api","timestamp":"2026-08-24 17:09:01"}
+{"level":"warn","message":"No se pudo sincronizar estado en BD:","service":"greenter-api","timestamp":"2026-08-24 17:09:02"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 17:13:43"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-24 17:13:50"}
+{"level":"error","message":"GRE rechazada. Ticket 14d37e5f-74c4-460f-8f32-de35db73b723: 0306 - Error al ValidarEsquema:  SAXException No se puede leer (parsear) el archivo XML: cvc-complex-type.2.4.a: Invalid content was found starting with element 'cbc:TransportModeCode'. One of '{\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":InsuranceValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredCustomsValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredForCarriageValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredStatisticsValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":FreeOnBoardValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":SpecialInstructions, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeliveryInstructions, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":SplitConsignmentIndicator, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":ConsignmentQuantity, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":Consignment, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":GoodsItem, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ShipmentStage, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":Delivery, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":TransportHandlingUnit, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ReturnAddress, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":OriginAddress, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":FirstArrivalPortLocation, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":LastExitPortLocation, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ExportCountry, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":FreightAllowanceCharge}' is expected.","service":"greenter-api","timestamp":"2026-08-24 17:13:50"}
+{"level":"error","message":"GRE rechazada. Ticket 14d37e5f-74c4-460f-8f32-de35db73b723: 0306 - Error al ValidarEsquema:  SAXException No se puede leer (parsear) el archivo XML: cvc-complex-type.2.4.a: Invalid content was found starting with element 'cbc:TransportModeCode'. One of '{\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":InsuranceValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredCustomsValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredForCarriageValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeclaredStatisticsValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":FreeOnBoardValueAmount, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":SpecialInstructions, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":DeliveryInstructions, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":SplitConsignmentIndicator, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":ConsignmentQuantity, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":Consignment, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":GoodsItem, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ShipmentStage, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":Delivery, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":TransportHandlingUnit, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ReturnAddress, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":OriginAddress, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":FirstArrivalPortLocation, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":LastExitPortLocation, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":ExportCountry, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":FreightAllowanceCharge}' is expected.","service":"greenter-api","timestamp":"2026-08-24 17:20:56"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:06:26"}
+{"level":"info","message":"XML generado: 6287 bytes","service":"greenter-api","timestamp":"2026-08-24 18:06:26"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-24 18:06:26"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:06:26"}
+{"level":"info","message":"GRE enviada. Ticket: 71e73bb8-439e-4468-8ee7-0b60dde6c4bd","service":"greenter-api","timestamp":"2026-08-24 18:06:27"}
+{"level":"info","message":"GRE enviada. Ticket: 71e73bb8-439e-4468-8ee7-0b60dde6c4bd","service":"greenter-api","timestamp":"2026-08-24 18:06:27"}
+{"level":"error","message":"GRE rechazada. Ticket 71e73bb8-439e-4468-8ee7-0b60dde6c4bd: 0306 - Error al ValidarEsquema:  SAXException No se puede leer (parsear) el archivo XML: cvc-complex-type.2.4.a: Invalid content was found starting with element 'cbc:Description'. One of '{\"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":BackorderQuantity, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":BackorderReason, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":OutstandingQuantity, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":OutstandingReason, \"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2\":OversupplyQuantity, \"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2\":OrderLineReference}' is expected.","service":"greenter-api","timestamp":"2026-08-24 18:06:36"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 18:09:22"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:12:13"}
+{"level":"info","message":"XML generado: 6291 bytes","service":"greenter-api","timestamp":"2026-08-24 18:12:13"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-24 18:12:13"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-24 18:12:13"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:12:13"}
+{"level":"info","message":"GRE enviada. Ticket: f4175b25-1594-4d5b-8141-add9ab619e2c","service":"greenter-api","timestamp":"2026-08-24 18:12:13"}
+{"level":"info","message":"GRE enviada. Ticket: f4175b25-1594-4d5b-8141-add9ab619e2c","service":"greenter-api","timestamp":"2026-08-24 18:12:14"}
+{"level":"error","message":"GRE rechazada. Ticket f4175b25-1594-4d5b-8141-add9ab619e2c: 1037 - El XML no contiene el tag o no existe informacion de RegistrationName del emisor del documento :  error: INFO: errorCode 1037 (nodo: \"/\" valor: \"\")","service":"greenter-api","timestamp":"2026-08-24 18:12:16"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 18:13:55"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:16:22"}
+{"level":"info","message":"XML generado: 6224 bytes","service":"greenter-api","timestamp":"2026-08-24 18:16:22"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-24 18:16:22"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-24 18:16:22"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:16:22"}
+{"level":"info","message":"GRE enviada. Ticket: cc83b3fb-aff4-4685-8b7e-e1e714e942db","service":"greenter-api","timestamp":"2026-08-24 18:16:22"}
+{"level":"info","message":"GRE enviada. Ticket: cc83b3fb-aff4-4685-8b7e-e1e714e942db","service":"greenter-api","timestamp":"2026-08-24 18:16:22"}
+{"level":"error","message":"GRE rechazada. Ticket cc83b3fb-aff4-4685-8b7e-e1e714e942db: 3347 - No debe consignar los datos del transportista para una operacion de Transporte Privado :  error: INFO : errorCode 3347 (nodo: \"cbc:ID/schemeID\" valor: \"6\")","service":"greenter-api","timestamp":"2026-08-24 18:16:24"}
+{"level":"error","message":"GRE rechazada. Ticket cc83b3fb-aff4-4685-8b7e-e1e714e942db: 3347 - No debe consignar los datos del transportista para una operacion de Transporte Privado :  error: INFO : errorCode 3347 (nodo: \"cbc:ID/schemeID\" valor: \"6\")","service":"greenter-api","timestamp":"2026-08-24 18:16:35"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 18:17:23"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:21:12"}
+{"level":"info","message":"XML generado: 5877 bytes","service":"greenter-api","timestamp":"2026-08-24 18:21:12"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-24 18:21:12"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-24 18:21:12"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:21:12"}
+{"level":"info","message":"GRE enviada. Ticket: ee927730-dbca-4ccb-863e-9fd057306493","service":"greenter-api","timestamp":"2026-08-24 18:21:12"}
+{"level":"info","message":"GRE enviada. Ticket: ee927730-dbca-4ccb-863e-9fd057306493","service":"greenter-api","timestamp":"2026-08-24 18:21:13"}
+{"level":"error","message":"GRE rechazada. Ticket ee927730-dbca-4ccb-863e-9fd057306493: 2567 - Numero de placa del veh�lo - El dato ingresado no cumple con el formato establecido. :  error: Vehiculo principal: errorCode 2567 (nodo: \"cac:TransportEquipment/cbc:ID\" valor: \"BDK - 778\")","service":"greenter-api","timestamp":"2026-08-24 18:21:15"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 18:22:34"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:24:21"}
+{"level":"info","message":"XML generado: 5875 bytes","service":"greenter-api","timestamp":"2026-08-24 18:24:21"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-24 18:24:21"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-24 18:24:21"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:24:21"}
+{"level":"info","message":"GRE enviada. Ticket: 1f97bf5e-3eaa-4ea6-ba65-b68edc6fd465","service":"greenter-api","timestamp":"2026-08-24 18:24:21"}
+{"level":"info","message":"GRE enviada. Ticket: 1f97bf5e-3eaa-4ea6-ba65-b68edc6fd465","service":"greenter-api","timestamp":"2026-08-24 18:24:21"}
+{"level":"error","message":"GRE rechazada. Ticket 1f97bf5e-3eaa-4ea6-ba65-b68edc6fd465: 2567 - Numero de placa del veh�lo - El dato ingresado no cumple con el formato establecido. :  error: Vehiculo principal: errorCode 2567 (nodo: \"cac:TransportEquipment/cbc:ID\" valor: \"BDK-778\")","service":"greenter-api","timestamp":"2026-08-24 18:24:23"}
+{"level":"error","message":"GRE rechazada. Ticket 1f97bf5e-3eaa-4ea6-ba65-b68edc6fd465: 2567 - Numero de placa del veh�lo - El dato ingresado no cumple con el formato establecido. :  error: Vehiculo principal: errorCode 2567 (nodo: \"cac:TransportEquipment/cbc:ID\" valor: \"BDK-778\")","service":"greenter-api","timestamp":"2026-08-24 18:24:46"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 18:33:17"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:34:00"}
+{"level":"info","message":"XML generado: 5874 bytes","service":"greenter-api","timestamp":"2026-08-24 18:34:00"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-24 18:34:00"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-24 18:34:00"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:34:00"}
+{"level":"info","message":"GRE enviada. Ticket: 8625682d-5ed0-46a6-9e22-169da4bbff29","service":"greenter-api","timestamp":"2026-08-24 18:34:00"}
+{"level":"info","message":"GRE enviada. Ticket: 8625682d-5ed0-46a6-9e22-169da4bbff29","service":"greenter-api","timestamp":"2026-08-24 18:34:00"}
+{"level":"error","message":"GRE rechazada. Ticket 8625682d-5ed0-46a6-9e22-169da4bbff29: 3409 - El Numero de RUC no cumple con el formato establecido :  error: Punto de LLegada - Establecimiento anexo: errorCode 3409 (nodo: \"cbc:AddressTypeCode/listID\" valor: \"73942706\")","service":"greenter-api","timestamp":"2026-08-24 18:34:02"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-24 18:35:27"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:36:01"}
+{"level":"info","message":"XML generado: 5800 bytes","service":"greenter-api","timestamp":"2026-08-24 18:36:01"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-24 18:36:01"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-24 18:36:01"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001186","service":"greenter-api","timestamp":"2026-08-24 18:36:01"}
+{"level":"info","message":"GRE enviada. Ticket: 1e18a889-e5f6-4c90-9d3e-8f52c948d058","service":"greenter-api","timestamp":"2026-08-24 18:36:01"}
+{"level":"info","message":"GRE enviada. Ticket: 1e18a889-e5f6-4c90-9d3e-8f52c948d058","service":"greenter-api","timestamp":"2026-08-24 18:36:02"}
+{"level":"error","message":"GRE rechazada. Ticket 1e18a889-e5f6-4c90-9d3e-8f52c948d058: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-08-24 18:36:03"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-25 10:31:24"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001186","service":"greenter-api","timestamp":"2026-08-25 10:31:41"}
+{"level":"info","message":"XML generado: 5800 bytes","service":"greenter-api","timestamp":"2026-08-25 10:31:41"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-25 10:31:41"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-25 10:31:42"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001186","service":"greenter-api","timestamp":"2026-08-25 10:31:42"}
+{"level":"info","message":"GRE enviada. Ticket: 3336eb8b-ce81-4df7-abf2-8ef51bf3f74e","service":"greenter-api","timestamp":"2026-08-25 10:31:42"}
+{"level":"info","message":"GRE enviada. Ticket: 3336eb8b-ce81-4df7-abf2-8ef51bf3f74e","service":"greenter-api","timestamp":"2026-08-25 10:31:42"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-26 17:57:21"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-26 17:58:51"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-26 18:02:42"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-26 18:02:43"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-26 18:02:48"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-26 18:02:58"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001207","service":"greenter-api","timestamp":"2026-08-26 18:04:03"}
+{"level":"info","message":"XML generado: 5427 bytes","service":"greenter-api","timestamp":"2026-08-26 18:04:03"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-26 18:04:03"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-26 18:04:03"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001207","service":"greenter-api","timestamp":"2026-08-26 18:04:03"}
+{"level":"info","message":"GRE enviada. Ticket: d38dc95b-07e3-4b57-9dbb-a7b532997e96","service":"greenter-api","timestamp":"2026-08-26 18:04:03"}
+{"level":"info","message":"GRE enviada. Ticket: d38dc95b-07e3-4b57-9dbb-a7b532997e96","service":"greenter-api","timestamp":"2026-08-26 18:04:04"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001208","service":"greenter-api","timestamp":"2026-08-26 18:04:08"}
+{"level":"info","message":"XML generado: 6007 bytes","service":"greenter-api","timestamp":"2026-08-26 18:04:08"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-26 18:04:08"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001208","service":"greenter-api","timestamp":"2026-08-26 18:04:08"}
+{"level":"info","message":"GRE enviada. Ticket: 3ba1443e-f3da-408a-8749-0162b28d8f8d","service":"greenter-api","timestamp":"2026-08-26 18:04:08"}
+{"level":"info","message":"GRE enviada. Ticket: 3ba1443e-f3da-408a-8749-0162b28d8f8d","service":"greenter-api","timestamp":"2026-08-26 18:04:09"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001209","service":"greenter-api","timestamp":"2026-08-26 18:04:11"}
+{"level":"info","message":"XML generado: 5567 bytes","service":"greenter-api","timestamp":"2026-08-26 18:04:11"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-26 18:04:11"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001209","service":"greenter-api","timestamp":"2026-08-26 18:04:11"}
+{"level":"info","message":"GRE enviada. Ticket: 62ef1256-be75-4d2b-bb27-9b442d7773ab","service":"greenter-api","timestamp":"2026-08-26 18:04:11"}
+{"level":"info","message":"GRE enviada. Ticket: 62ef1256-be75-4d2b-bb27-9b442d7773ab","service":"greenter-api","timestamp":"2026-08-26 18:04:12"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001210","service":"greenter-api","timestamp":"2026-08-26 18:04:13"}
+{"level":"info","message":"XML generado: 5447 bytes","service":"greenter-api","timestamp":"2026-08-26 18:04:13"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-26 18:04:13"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001210","service":"greenter-api","timestamp":"2026-08-26 18:04:13"}
+{"level":"info","message":"GRE enviada. Ticket: 7ced8e84-1e77-45e9-b11e-37ccc0e249d8","service":"greenter-api","timestamp":"2026-08-26 18:04:14"}
+{"level":"info","message":"GRE enviada. Ticket: 7ced8e84-1e77-45e9-b11e-37ccc0e249d8","service":"greenter-api","timestamp":"2026-08-26 18:04:14"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001211","service":"greenter-api","timestamp":"2026-08-26 18:04:15"}
+{"level":"info","message":"XML generado: 5402 bytes","service":"greenter-api","timestamp":"2026-08-26 18:04:15"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-26 18:04:15"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001211","service":"greenter-api","timestamp":"2026-08-26 18:04:15"}
+{"level":"info","message":"GRE enviada. Ticket: 56783d6d-f237-4295-89fa-e3698800791d","service":"greenter-api","timestamp":"2026-08-26 18:04:15"}
+{"level":"info","message":"GRE enviada. Ticket: 56783d6d-f237-4295-89fa-e3698800791d","service":"greenter-api","timestamp":"2026-08-26 18:04:16"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001212","service":"greenter-api","timestamp":"2026-08-26 18:04:17"}
+{"level":"info","message":"XML generado: 5961 bytes","service":"greenter-api","timestamp":"2026-08-26 18:04:17"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-26 18:04:17"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001212","service":"greenter-api","timestamp":"2026-08-26 18:04:17"}
+{"level":"info","message":"GRE enviada. Ticket: a08d3e64-8ca2-4b32-9a81-0c6013421c0f","service":"greenter-api","timestamp":"2026-08-26 18:04:17"}
+{"level":"info","message":"GRE enviada. Ticket: a08d3e64-8ca2-4b32-9a81-0c6013421c0f","service":"greenter-api","timestamp":"2026-08-26 18:04:17"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001213","service":"greenter-api","timestamp":"2026-08-26 18:04:19"}
+{"level":"info","message":"XML generado: 5464 bytes","service":"greenter-api","timestamp":"2026-08-26 18:04:19"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-26 18:04:19"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001213","service":"greenter-api","timestamp":"2026-08-26 18:04:19"}
+{"level":"info","message":"GRE enviada. Ticket: a5a8f27a-9a03-4715-b427-5961747de066","service":"greenter-api","timestamp":"2026-08-26 18:04:19"}
+{"level":"info","message":"GRE enviada. Ticket: a5a8f27a-9a03-4715-b427-5961747de066","service":"greenter-api","timestamp":"2026-08-26 18:04:19"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001214","service":"greenter-api","timestamp":"2026-08-26 18:04:21"}
+{"level":"info","message":"XML generado: 5452 bytes","service":"greenter-api","timestamp":"2026-08-26 18:04:21"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-26 18:04:21"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001214","service":"greenter-api","timestamp":"2026-08-26 18:04:21"}
+{"level":"info","message":"GRE enviada. Ticket: cdce0b83-9a5e-44c9-8ee5-645b432b5684","service":"greenter-api","timestamp":"2026-08-26 18:04:21"}
+{"level":"info","message":"GRE enviada. Ticket: cdce0b83-9a5e-44c9-8ee5-645b432b5684","service":"greenter-api","timestamp":"2026-08-26 18:04:21"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000230","service":"greenter-api","timestamp":"2026-08-26 18:04:23"}
+{"level":"info","message":"XML generado: 5350 bytes","service":"greenter-api","timestamp":"2026-08-26 18:04:23"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-26 18:04:23"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000230","service":"greenter-api","timestamp":"2026-08-26 18:04:23"}
+{"level":"info","message":"GRE enviada. Ticket: c263bb24-923e-4719-a389-211585dfc982","service":"greenter-api","timestamp":"2026-08-26 18:04:23"}
+{"level":"info","message":"GRE enviada. Ticket: c263bb24-923e-4719-a389-211585dfc982","service":"greenter-api","timestamp":"2026-08-26 18:04:23"}
+{"level":"error","message":"GRE rechazada. Ticket c263bb24-923e-4719-a389-211585dfc982: 3617 - No ha ingresado el campo de “Fecha de entrega de bienes al transportista” o esta vacio :  error: INFO: errorCode 3617 (nodo: \"/\" valor: \"\")","service":"greenter-api","timestamp":"2026-08-26 18:04:25"}
+{"level":"error","message":"GRE rechazada. Ticket d38dc95b-07e3-4b57-9dbb-a7b532997e96: 1033 - El comprobante fue registrado previamente con otros datos","service":"greenter-api","timestamp":"2026-08-26 18:04:31"}
+{"level":"error","message":"GRE rechazada. Ticket 62ef1256-be75-4d2b-bb27-9b442d7773ab: 1033 - El comprobante fue registrado previamente con otros datos","service":"greenter-api","timestamp":"2026-08-26 18:04:43"}
+{"level":"error","message":"GRE rechazada. Ticket a08d3e64-8ca2-4b32-9a81-0c6013421c0f: 1033 - El comprobante fue registrado previamente con otros datos","service":"greenter-api","timestamp":"2026-08-26 18:04:52"}
+{"level":"error","message":"GRE rechazada. Ticket c263bb24-923e-4719-a389-211585dfc982: 3617 - No ha ingresado el campo de “Fecha de entrega de bienes al transportista” o esta vacio :  error: INFO: errorCode 3617 (nodo: \"/\" valor: \"\")","service":"greenter-api","timestamp":"2026-08-26 18:06:10"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000230","service":"greenter-api","timestamp":"2026-08-26 18:10:09"}
+{"level":"info","message":"XML generado: 5350 bytes","service":"greenter-api","timestamp":"2026-08-26 18:10:09"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-26 18:10:09"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000230","service":"greenter-api","timestamp":"2026-08-26 18:10:09"}
+{"level":"info","message":"GRE enviada. Ticket: 59b449b3-17d3-4641-aa06-e58ae6144f12","service":"greenter-api","timestamp":"2026-08-26 18:10:09"}
+{"level":"info","message":"GRE enviada. Ticket: 59b449b3-17d3-4641-aa06-e58ae6144f12","service":"greenter-api","timestamp":"2026-08-26 18:10:10"}
+{"level":"error","message":"GRE rechazada. Ticket 59b449b3-17d3-4641-aa06-e58ae6144f12: 3617 - No ha ingresado el campo de “Fecha de entrega de bienes al transportista” o esta vacio :  error: INFO: errorCode 3617 (nodo: \"/\" valor: \"\")","service":"greenter-api","timestamp":"2026-08-26 18:10:11"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-26 18:13:56"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-26 18:14:00"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-26 18:14:06"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-26 18:14:16"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000230","service":"greenter-api","timestamp":"2026-08-26 18:14:54"}
+{"level":"info","message":"XML generado: 5479 bytes","service":"greenter-api","timestamp":"2026-08-26 18:14:54"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-26 18:14:55"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-26 18:14:55"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000230","service":"greenter-api","timestamp":"2026-08-26 18:14:55"}
+{"level":"info","message":"GRE enviada. Ticket: f151d579-2780-4e7e-b87e-ca883514ca6a","service":"greenter-api","timestamp":"2026-08-26 18:14:55"}
+{"level":"info","message":"GRE enviada. Ticket: f151d579-2780-4e7e-b87e-ca883514ca6a","service":"greenter-api","timestamp":"2026-08-26 18:14:55"}
+{"level":"error","message":"GRE rechazada. Ticket f151d579-2780-4e7e-b87e-ca883514ca6a: 2485 - Tipo de documento de identidad debe ser RUC :  error: INFO: errorCode 2485 (nodo: \"cbc:ID/schemeID\" valor: \"1\")","service":"greenter-api","timestamp":"2026-08-26 18:14:57"}
+{"level":"warn","message":"Transportista sin RUC de 11 dígitos (\"vacío\"): se enviará con tipoDoc RUC; SUNAT puede rechazar la GRE","service":"greenter-api","timestamp":"2026-08-27 17:29:38"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-27 17:30:10"}
+{"level":"warn","message":"Transportista sin RUC de 11 dígitos (\"75366748\"): se enviará con tipoDoc RUC; SUNAT puede rechazar la GRE","service":"greenter-api","timestamp":"2026-08-27 17:31:30"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 17:31:30"}
+{"level":"info","message":"XML generado: 5479 bytes","service":"greenter-api","timestamp":"2026-08-27 17:31:30"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-27 17:31:30"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-27 17:31:30"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 17:31:30"}
+{"level":"info","message":"GRE enviada. Ticket: 5ab50da8-9350-4079-904f-9a184cec974b","service":"greenter-api","timestamp":"2026-08-27 17:31:30"}
+{"level":"info","message":"GRE enviada. Ticket: 5ab50da8-9350-4079-904f-9a184cec974b","service":"greenter-api","timestamp":"2026-08-27 17:31:30"}
+{"level":"error","message":"GRE rechazada. Ticket 5ab50da8-9350-4079-904f-9a184cec974b: 3354 - No debe ingresar informacion de vehiculo principal :  error: INFO : errorCode 3354 (nodo: \"cac:TransportEquipment/cbc:ID\" valor: \"W1D360\")","service":"greenter-api","timestamp":"2026-08-27 17:31:32"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-27 17:34:42"}
+{"level":"warn","message":"Transportista sin RUC de 11 dígitos (\"75366748\"): se enviará con tipoDoc RUC; SUNAT puede rechazar la GRE","service":"greenter-api","timestamp":"2026-08-27 17:35:34"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 17:35:34"}
+{"level":"info","message":"XML generado: 5319 bytes","service":"greenter-api","timestamp":"2026-08-27 17:35:34"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-27 17:35:34"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-27 17:35:34"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 17:35:34"}
+{"level":"info","message":"GRE enviada. Ticket: e08d3a01-76f1-467c-ba2e-3a9989fd5148","service":"greenter-api","timestamp":"2026-08-27 17:35:34"}
+{"level":"info","message":"GRE enviada. Ticket: e08d3a01-76f1-467c-ba2e-3a9989fd5148","service":"greenter-api","timestamp":"2026-08-27 17:35:35"}
+{"level":"error","message":"GRE rechazada. Ticket e08d3a01-76f1-467c-ba2e-3a9989fd5148: 3348 - El Número de RUC del Transportista no existe","service":"greenter-api","timestamp":"2026-08-27 17:35:36"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 17:36:45"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"vacío\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 17:36:45"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-27 17:39:00"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 17:40:02"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 17:40:02"}
+{"level":"info","message":"XML generado: 5021 bytes","service":"greenter-api","timestamp":"2026-08-27 17:40:02"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-27 17:40:02"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-27 17:40:02"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 17:40:02"}
+{"level":"info","message":"GRE enviada. Ticket: ac929d9a-3d05-4b77-9920-a1106e4c29be","service":"greenter-api","timestamp":"2026-08-27 17:40:02"}
+{"level":"info","message":"GRE enviada. Ticket: ac929d9a-3d05-4b77-9920-a1106e4c29be","service":"greenter-api","timestamp":"2026-08-27 17:40:02"}
+{"level":"error","message":"GRE rechazada. Ticket ac929d9a-3d05-4b77-9920-a1106e4c29be: 3357 - Debe consignar informacion del conductor principal :  error: INFO : errorCode 3357 (nodo: \"/\" valor: \"\")","service":"greenter-api","timestamp":"2026-08-27 17:40:04"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 17:41:49"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-27 17:44:32"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 17:46:29"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 17:46:29"}
+{"level":"info","message":"XML generado: 5519 bytes","service":"greenter-api","timestamp":"2026-08-27 17:46:29"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-27 17:46:29"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-27 17:46:29"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 17:46:29"}
+{"level":"info","message":"GRE enviada. Ticket: e519d2aa-30b0-4e16-9914-00f984c9c751","service":"greenter-api","timestamp":"2026-08-27 17:46:29"}
+{"level":"info","message":"GRE enviada. Ticket: e519d2aa-30b0-4e16-9914-00f984c9c751","service":"greenter-api","timestamp":"2026-08-27 17:46:30"}
+{"level":"error","message":"GRE rechazada. Ticket e519d2aa-30b0-4e16-9914-00f984c9c751: 2573 - Numero de licencia del conductor - El dato ingresado no cumple con el formato establecido. :  error: Tipo de conductor Principal: errorCode 2573 (nodo: \"cac:IdentityDocumentReference/cbc:ID\" valor: \"00000000\")","service":"greenter-api","timestamp":"2026-08-27 17:46:32"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 17:47:54"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-27 17:48:37"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 18:05:25"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-27 18:06:01"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 18:07:55"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 18:07:55"}
+{"level":"info","message":"XML generado: 4949 bytes","service":"greenter-api","timestamp":"2026-08-27 18:07:55"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-27 18:07:55"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-27 18:07:55"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 18:07:55"}
+{"level":"info","message":"GRE enviada. Ticket: fa0fbaf9-e539-4842-906f-f52c09a794d3","service":"greenter-api","timestamp":"2026-08-27 18:07:56"}
+{"level":"info","message":"GRE enviada. Ticket: fa0fbaf9-e539-4842-906f-f52c09a794d3","service":"greenter-api","timestamp":"2026-08-27 18:07:56"}
+{"level":"error","message":"GRE rechazada. Ticket fa0fbaf9-e539-4842-906f-f52c09a794d3: 3388 - El indicador no cumple con el formato establecido :  error: INFO : errorCode 3388 (nodo: \"cbc:SpecialInstructions/\" valor: \"SUNAT_Envio_IndicadorVehiculoM1L\")","service":"greenter-api","timestamp":"2026-08-27 18:07:58"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 18:09:56"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-27 18:10:35"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 18:12:06"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 18:12:06"}
+{"level":"info","message":"XML generado: 4957 bytes","service":"greenter-api","timestamp":"2026-08-27 18:12:06"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-27 18:12:07"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-27 18:12:07"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000230","service":"greenter-api","timestamp":"2026-08-27 18:12:07"}
+{"level":"info","message":"GRE enviada. Ticket: bb6894c8-7da1-40d5-822a-45af7fc862c2","service":"greenter-api","timestamp":"2026-08-27 18:12:07"}
+{"level":"info","message":"GRE enviada. Ticket: bb6894c8-7da1-40d5-822a-45af7fc862c2","service":"greenter-api","timestamp":"2026-08-27 18:12:07"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 18:12:47"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 18:15:11"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 18:15:19"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-27 18:15:24"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-28 18:58:39"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"48113650\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 18:59:05"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-28 18:59:05"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"42621687\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 18:59:13"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-28 18:59:13"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"42621687\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 18:59:15"}
+{"level":"error","message":"Error emitiendo guía:","service":"greenter-api","timestamp":"2026-08-28 18:59:15"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-28 19:03:31"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"48113650\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 19:04:09"}
+{"level":"error","message":"Error emitiendo guía: Licencia de conducir del conductor principal (DNI 48113650) no es válida en el ERP (\"00000000\"): SUNAT la rechaza (errors 3360/2573). Registre el N° de brevete real del conductor en el ERP e intente de nuevo.","service":"greenter-api","timestamp":"2026-08-28 19:04:09"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-28 19:06:17"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"48113650\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 19:06:39"}
+{"level":"warn","message":"Licencia vacía o ceros para DNI 48113650. Usando el DNI como N° de licencia por defecto.","service":"greenter-api","timestamp":"2026-08-28 19:06:39"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001218","service":"greenter-api","timestamp":"2026-08-28 19:06:39"}
+{"level":"info","message":"XML generado: 6325 bytes","service":"greenter-api","timestamp":"2026-08-28 19:06:39"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-28 19:06:39"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-28 19:06:39"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001218","service":"greenter-api","timestamp":"2026-08-28 19:06:39"}
+{"level":"info","message":"GRE enviada. Ticket: 1f5637ba-dfcc-4aeb-b102-914941bea8c6","service":"greenter-api","timestamp":"2026-08-28 19:06:39"}
+{"level":"info","message":"GRE enviada. Ticket: 1f5637ba-dfcc-4aeb-b102-914941bea8c6","service":"greenter-api","timestamp":"2026-08-28 19:06:40"}
+{"level":"error","message":"GRE rechazada. Ticket 1f5637ba-dfcc-4aeb-b102-914941bea8c6: 2573 - Numero de licencia del conductor - El dato ingresado no cumple con el formato establecido. :  error: Tipo de conductor Principal: errorCode 2573 (nodo: \"cac:IdentityDocumentReference/cbc:ID\" valor: \"48113650\")","service":"greenter-api","timestamp":"2026-08-28 19:06:55"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-28 19:10:51"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-28 19:10:53"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"48113650\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 19:10:58"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"48113650\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 19:11:02"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-28 19:13:22"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"48113650\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 19:13:27"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"48113650\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 19:13:40"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"48113650\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 19:14:50"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001218","service":"greenter-api","timestamp":"2026-08-28 19:14:50"}
+{"level":"info","message":"XML generado: 5767 bytes","service":"greenter-api","timestamp":"2026-08-28 19:14:50"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-28 19:14:50"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-08-28 19:14:50"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001218","service":"greenter-api","timestamp":"2026-08-28 19:14:50"}
+{"level":"info","message":"GRE enviada. Ticket: a25b4064-e84a-44b3-9a04-d01e5d33d4c1","service":"greenter-api","timestamp":"2026-08-28 19:14:50"}
+{"level":"info","message":"GRE enviada. Ticket: a25b4064-e84a-44b3-9a04-d01e5d33d4c1","service":"greenter-api","timestamp":"2026-08-28 19:14:51"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"42621687\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 19:15:11"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001219","service":"greenter-api","timestamp":"2026-08-28 19:15:11"}
+{"level":"info","message":"XML generado: 4758 bytes","service":"greenter-api","timestamp":"2026-08-28 19:15:11"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-28 19:15:12"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001219","service":"greenter-api","timestamp":"2026-08-28 19:15:12"}
+{"level":"info","message":"GRE enviada. Ticket: 8bd5d95e-0190-4c7f-8ce6-5f26983a2484","service":"greenter-api","timestamp":"2026-08-28 19:15:12"}
+{"level":"info","message":"GRE enviada. Ticket: 8bd5d95e-0190-4c7f-8ce6-5f26983a2484","service":"greenter-api","timestamp":"2026-08-28 19:15:12"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"42621687\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-08-28 19:15:33"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001220","service":"greenter-api","timestamp":"2026-08-28 19:15:33"}
+{"level":"info","message":"XML generado: 4918 bytes","service":"greenter-api","timestamp":"2026-08-28 19:15:33"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-08-28 19:15:33"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001220","service":"greenter-api","timestamp":"2026-08-28 19:15:33"}
+{"level":"info","message":"GRE enviada. Ticket: 504bf847-2a3c-4dcf-98b0-675560d39215","service":"greenter-api","timestamp":"2026-08-28 19:15:33"}
+{"level":"info","message":"GRE enviada. Ticket: 504bf847-2a3c-4dcf-98b0-675560d39215","service":"greenter-api","timestamp":"2026-08-28 19:15:33"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-08-29 17:55:31"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-02 17:30:19"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-02 17:30:59"}
+{"level":"info","message":"Iniciando emisión GRE: T004-00000481","service":"greenter-api","timestamp":"2026-09-02 17:37:08"}
+{"level":"info","message":"XML generado: 9686 bytes","service":"greenter-api","timestamp":"2026-09-02 17:37:08"}
+{"level":"error","message":"Error emitiendo GRE: Certificado PFX no encontrado: certificates/20327427696PFX","service":"greenter-api","timestamp":"2026-09-02 17:37:08"}
+{"level":"info","message":"Iniciando emisión GRE: T004-00000480","service":"greenter-api","timestamp":"2026-09-02 17:37:57"}
+{"level":"info","message":"XML generado: 9773 bytes","service":"greenter-api","timestamp":"2026-09-02 17:37:57"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-02 17:37:57"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-02 17:37:57"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20327427696-09-T004-00000480","service":"greenter-api","timestamp":"2026-09-02 17:37:57"}
+{"level":"info","message":"GRE enviada. Ticket: 1760b609-6301-4210-8013-7f2928f77535","service":"greenter-api","timestamp":"2026-09-02 17:37:57"}
+{"level":"info","message":"GRE enviada. Ticket: 1760b609-6301-4210-8013-7f2928f77535","service":"greenter-api","timestamp":"2026-09-02 17:37:58"}
+{"level":"info","message":"Iniciando emisión GRE: T004-00000481","service":"greenter-api","timestamp":"2026-09-02 17:41:50"}
+{"level":"info","message":"XML generado: 9686 bytes","service":"greenter-api","timestamp":"2026-09-02 17:41:50"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-02 17:41:50"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20327427696-09-T004-00000481","service":"greenter-api","timestamp":"2026-09-02 17:41:50"}
+{"level":"info","message":"GRE enviada. Ticket: 8391f039-b595-4816-bc3f-096f7fbec301","service":"greenter-api","timestamp":"2026-09-02 17:41:50"}
+{"level":"info","message":"GRE enviada. Ticket: 8391f039-b595-4816-bc3f-096f7fbec301","service":"greenter-api","timestamp":"2026-09-02 17:41:51"}
+{"level":"info","message":"Iniciando emisión GRE: T001-00002090","service":"greenter-api","timestamp":"2026-09-02 17:42:37"}
+{"level":"info","message":"XML generado: 5596 bytes","service":"greenter-api","timestamp":"2026-09-02 17:42:37"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-02 17:42:37"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20327427696-09-T001-00002090","service":"greenter-api","timestamp":"2026-09-02 17:42:37"}
+{"level":"info","message":"GRE enviada. Ticket: e956baf4-5e97-4abb-888f-e23045f0cb72","service":"greenter-api","timestamp":"2026-09-02 17:42:37"}
+{"level":"info","message":"GRE enviada. Ticket: e956baf4-5e97-4abb-888f-e23045f0cb72","service":"greenter-api","timestamp":"2026-09-02 17:42:38"}
+{"level":"info","message":"Iniciando emisión GRE: T001-00002091","service":"greenter-api","timestamp":"2026-09-02 17:42:43"}
+{"level":"info","message":"XML generado: 5042 bytes","service":"greenter-api","timestamp":"2026-09-02 17:42:43"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-02 17:42:43"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20327427696-09-T001-00002091","service":"greenter-api","timestamp":"2026-09-02 17:42:43"}
+{"level":"info","message":"GRE enviada. Ticket: cf5243bb-2f1c-4908-a7fa-b6b87d70b959","service":"greenter-api","timestamp":"2026-09-02 17:42:43"}
+{"level":"info","message":"GRE enviada. Ticket: cf5243bb-2f1c-4908-a7fa-b6b87d70b959","service":"greenter-api","timestamp":"2026-09-02 17:42:43"}
+{"level":"info","message":"Iniciando emisión GRE: T002-00000944","service":"greenter-api","timestamp":"2026-09-02 17:42:45"}
+{"level":"info","message":"XML generado: 13431 bytes","service":"greenter-api","timestamp":"2026-09-02 17:42:45"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-02 17:42:45"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20327427696-09-T002-00000944","service":"greenter-api","timestamp":"2026-09-02 17:42:45"}
+{"level":"info","message":"GRE enviada. Ticket: b5117aec-2c39-4a2a-8c60-e621d7b87c53","service":"greenter-api","timestamp":"2026-09-02 17:42:46"}
+{"level":"info","message":"GRE enviada. Ticket: b5117aec-2c39-4a2a-8c60-e621d7b87c53","service":"greenter-api","timestamp":"2026-09-02 17:42:46"}
+{"level":"info","message":"Iniciando emisión GRE: T004-00000479","service":"greenter-api","timestamp":"2026-09-02 17:42:47"}
+{"level":"info","message":"XML generado: 9774 bytes","service":"greenter-api","timestamp":"2026-09-02 17:42:47"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-02 17:42:47"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20327427696-09-T004-00000479","service":"greenter-api","timestamp":"2026-09-02 17:42:47"}
+{"level":"info","message":"GRE enviada. Ticket: 5311f476-3915-4ece-990f-ddc9ea7ad040","service":"greenter-api","timestamp":"2026-09-02 17:42:47"}
+{"level":"info","message":"GRE enviada. Ticket: 5311f476-3915-4ece-990f-ddc9ea7ad040","service":"greenter-api","timestamp":"2026-09-02 17:42:48"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-02 17:46:50"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-02 17:46:55"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-02 17:46:57"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-02 17:47:01"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001222","service":"greenter-api","timestamp":"2026-09-02 17:47:14"}
+{"level":"info","message":"XML generado: 5469 bytes","service":"greenter-api","timestamp":"2026-09-02 17:47:14"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-02 17:47:14"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-02 17:47:14"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001222","service":"greenter-api","timestamp":"2026-09-02 17:47:14"}
+{"level":"info","message":"GRE enviada. Ticket: f5a79bc3-8b03-4eee-b361-50d3bdf96e4e","service":"greenter-api","timestamp":"2026-09-02 17:47:15"}
+{"level":"info","message":"GRE enviada. Ticket: f5a79bc3-8b03-4eee-b361-50d3bdf96e4e","service":"greenter-api","timestamp":"2026-09-02 17:47:15"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001230","service":"greenter-api","timestamp":"2026-09-02 17:50:34"}
+{"level":"info","message":"XML generado: 5982 bytes","service":"greenter-api","timestamp":"2026-09-02 17:50:34"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-02 17:50:34"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001230","service":"greenter-api","timestamp":"2026-09-02 17:50:34"}
+{"level":"info","message":"GRE enviada. Ticket: a1287bea-9f4c-49b8-9f84-22d878e27df4","service":"greenter-api","timestamp":"2026-09-02 17:50:35"}
+{"level":"info","message":"GRE enviada. Ticket: a1287bea-9f4c-49b8-9f84-22d878e27df4","service":"greenter-api","timestamp":"2026-09-02 17:50:35"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001231","service":"greenter-api","timestamp":"2026-09-02 17:50:36"}
+{"level":"info","message":"XML generado: 5681 bytes","service":"greenter-api","timestamp":"2026-09-02 17:50:36"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-02 17:50:36"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001231","service":"greenter-api","timestamp":"2026-09-02 17:50:36"}
+{"level":"info","message":"GRE enviada. Ticket: 1ade88f9-9b73-44a3-997f-1de24f5f5ae3","service":"greenter-api","timestamp":"2026-09-02 17:50:36"}
+{"level":"info","message":"GRE enviada. Ticket: 1ade88f9-9b73-44a3-997f-1de24f5f5ae3","service":"greenter-api","timestamp":"2026-09-02 17:50:37"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-07 16:01:13"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-14 20:03:54"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001281","service":"greenter-api","timestamp":"2026-09-14 20:05:06"}
+{"level":"info","message":"XML generado: 6773 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:06"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:06"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:07"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001281","service":"greenter-api","timestamp":"2026-09-14 20:05:07"}
+{"level":"info","message":"GRE enviada. Ticket: 79928352-f99e-449e-a6be-02d342416b35","service":"greenter-api","timestamp":"2026-09-14 20:05:07"}
+{"level":"info","message":"GRE enviada. Ticket: 79928352-f99e-449e-a6be-02d342416b35","service":"greenter-api","timestamp":"2026-09-14 20:05:07"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"42621687\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-09-14 20:05:10"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001275","service":"greenter-api","timestamp":"2026-09-14 20:05:10"}
+{"level":"info","message":"XML generado: 4887 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:10"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:10"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001275","service":"greenter-api","timestamp":"2026-09-14 20:05:10"}
+{"level":"info","message":"GRE enviada. Ticket: 7f162dd7-1042-45a1-8f5b-4e5bbc433712","service":"greenter-api","timestamp":"2026-09-14 20:05:10"}
+{"level":"info","message":"GRE enviada. Ticket: 7f162dd7-1042-45a1-8f5b-4e5bbc433712","service":"greenter-api","timestamp":"2026-09-14 20:05:10"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001270","service":"greenter-api","timestamp":"2026-09-14 20:05:16"}
+{"level":"info","message":"XML generado: 5489 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:16"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:16"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001270","service":"greenter-api","timestamp":"2026-09-14 20:05:16"}
+{"level":"info","message":"GRE enviada. Ticket: d90466a3-2028-4bd7-bbdb-09f2548be287","service":"greenter-api","timestamp":"2026-09-14 20:05:17"}
+{"level":"info","message":"GRE enviada. Ticket: d90466a3-2028-4bd7-bbdb-09f2548be287","service":"greenter-api","timestamp":"2026-09-14 20:05:17"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001267","service":"greenter-api","timestamp":"2026-09-14 20:05:20"}
+{"level":"info","message":"XML generado: 5886 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:20"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:20"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001267","service":"greenter-api","timestamp":"2026-09-14 20:05:20"}
+{"level":"info","message":"GRE enviada. Ticket: a1366628-c631-47b6-9311-11a98f826cb2","service":"greenter-api","timestamp":"2026-09-14 20:05:20"}
+{"level":"info","message":"GRE enviada. Ticket: a1366628-c631-47b6-9311-11a98f826cb2","service":"greenter-api","timestamp":"2026-09-14 20:05:20"}
+{"level":"error","message":"GRE rechazada. Ticket a1366628-c631-47b6-9311-11a98f826cb2: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-14 20:05:36"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001255","service":"greenter-api","timestamp":"2026-09-14 20:05:48"}
+{"level":"info","message":"XML generado: 5984 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:48"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:48"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001255","service":"greenter-api","timestamp":"2026-09-14 20:05:48"}
+{"level":"info","message":"GRE enviada. Ticket: da20bae7-dfe7-405d-bd2f-8b04910c22db","service":"greenter-api","timestamp":"2026-09-14 20:05:48"}
+{"level":"info","message":"GRE enviada. Ticket: da20bae7-dfe7-405d-bd2f-8b04910c22db","service":"greenter-api","timestamp":"2026-09-14 20:05:49"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"07529485\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-09-14 20:05:50"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000238","service":"greenter-api","timestamp":"2026-09-14 20:05:50"}
+{"level":"info","message":"XML generado: 4857 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:50"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:50"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000238","service":"greenter-api","timestamp":"2026-09-14 20:05:50"}
+{"level":"info","message":"GRE enviada. Ticket: 0bc07f9e-21b3-494e-a1ff-6bac9ae3b630","service":"greenter-api","timestamp":"2026-09-14 20:05:50"}
+{"level":"info","message":"GRE enviada. Ticket: 0bc07f9e-21b3-494e-a1ff-6bac9ae3b630","service":"greenter-api","timestamp":"2026-09-14 20:05:50"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"48057020\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-09-14 20:05:51"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000239","service":"greenter-api","timestamp":"2026-09-14 20:05:51"}
+{"level":"info","message":"XML generado: 4865 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:51"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:51"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000239","service":"greenter-api","timestamp":"2026-09-14 20:05:51"}
+{"level":"info","message":"GRE enviada. Ticket: 2f8ab808-c071-47a9-be9e-4e6a8fe637e5","service":"greenter-api","timestamp":"2026-09-14 20:05:51"}
+{"level":"info","message":"GRE enviada. Ticket: 2f8ab808-c071-47a9-be9e-4e6a8fe637e5","service":"greenter-api","timestamp":"2026-09-14 20:05:51"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"42621687\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-09-14 20:05:52"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000235","service":"greenter-api","timestamp":"2026-09-14 20:05:52"}
+{"level":"info","message":"XML generado: 4837 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:52"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:52"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000235","service":"greenter-api","timestamp":"2026-09-14 20:05:52"}
+{"level":"info","message":"GRE enviada. Ticket: 0c643051-f509-4266-b7ee-ebbc23bd4ab0","service":"greenter-api","timestamp":"2026-09-14 20:05:52"}
+{"level":"info","message":"GRE enviada. Ticket: 0c643051-f509-4266-b7ee-ebbc23bd4ab0","service":"greenter-api","timestamp":"2026-09-14 20:05:53"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"70764055\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-09-14 20:05:54"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001253","service":"greenter-api","timestamp":"2026-09-14 20:05:54"}
+{"level":"info","message":"XML generado: 4840 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:54"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:54"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001253","service":"greenter-api","timestamp":"2026-09-14 20:05:54"}
+{"level":"info","message":"GRE enviada. Ticket: 3047d0c0-5251-4900-9a9c-14efbd57e26b","service":"greenter-api","timestamp":"2026-09-14 20:05:54"}
+{"level":"info","message":"GRE enviada. Ticket: 3047d0c0-5251-4900-9a9c-14efbd57e26b","service":"greenter-api","timestamp":"2026-09-14 20:05:54"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001242","service":"greenter-api","timestamp":"2026-09-14 20:05:55"}
+{"level":"info","message":"XML generado: 5982 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:55"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:55"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001242","service":"greenter-api","timestamp":"2026-09-14 20:05:55"}
+{"level":"info","message":"GRE enviada. Ticket: 51662eee-fbb0-4533-b09e-c0f4093ac072","service":"greenter-api","timestamp":"2026-09-14 20:05:55"}
+{"level":"info","message":"GRE enviada. Ticket: 51662eee-fbb0-4533-b09e-c0f4093ac072","service":"greenter-api","timestamp":"2026-09-14 20:05:56"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001246","service":"greenter-api","timestamp":"2026-09-14 20:05:57"}
+{"level":"info","message":"XML generado: 5447 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:57"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:57"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001246","service":"greenter-api","timestamp":"2026-09-14 20:05:57"}
+{"level":"info","message":"GRE enviada. Ticket: 4e088f01-d881-4e00-98a7-7a6ee2acd323","service":"greenter-api","timestamp":"2026-09-14 20:05:57"}
+{"level":"info","message":"GRE enviada. Ticket: 4e088f01-d881-4e00-98a7-7a6ee2acd323","service":"greenter-api","timestamp":"2026-09-14 20:05:57"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001249","service":"greenter-api","timestamp":"2026-09-14 20:05:58"}
+{"level":"info","message":"XML generado: 5872 bytes","service":"greenter-api","timestamp":"2026-09-14 20:05:58"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:05:58"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001249","service":"greenter-api","timestamp":"2026-09-14 20:05:58"}
+{"level":"info","message":"GRE enviada. Ticket: 19b24c1c-e7ed-46dc-8827-d904de6b2a3c","service":"greenter-api","timestamp":"2026-09-14 20:05:58"}
+{"level":"info","message":"GRE enviada. Ticket: 19b24c1c-e7ed-46dc-8827-d904de6b2a3c","service":"greenter-api","timestamp":"2026-09-14 20:05:59"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"08244216\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-09-14 20:06:00"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000233","service":"greenter-api","timestamp":"2026-09-14 20:06:00"}
+{"level":"info","message":"XML generado: 4893 bytes","service":"greenter-api","timestamp":"2026-09-14 20:06:00"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:06:00"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000233","service":"greenter-api","timestamp":"2026-09-14 20:06:00"}
+{"level":"info","message":"GRE enviada. Ticket: 97ef58e5-6182-410b-83c4-e4a23e69546d","service":"greenter-api","timestamp":"2026-09-14 20:06:00"}
+{"level":"info","message":"GRE enviada. Ticket: 97ef58e5-6182-410b-83c4-e4a23e69546d","service":"greenter-api","timestamp":"2026-09-14 20:06:00"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"75366748\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-09-14 20:06:02"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001241","service":"greenter-api","timestamp":"2026-09-14 20:06:02"}
+{"level":"info","message":"XML generado: 4840 bytes","service":"greenter-api","timestamp":"2026-09-14 20:06:02"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:06:02"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001241","service":"greenter-api","timestamp":"2026-09-14 20:06:02"}
+{"level":"info","message":"GRE enviada. Ticket: 92011bfb-069d-417d-a6c2-89844ccf1c81","service":"greenter-api","timestamp":"2026-09-14 20:06:02"}
+{"level":"info","message":"GRE enviada. Ticket: 92011bfb-069d-417d-a6c2-89844ccf1c81","service":"greenter-api","timestamp":"2026-09-14 20:06:02"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000232","service":"greenter-api","timestamp":"2026-09-14 20:06:04"}
+{"level":"info","message":"XML generado: 9151 bytes","service":"greenter-api","timestamp":"2026-09-14 20:06:04"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-14 20:06:04"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000232","service":"greenter-api","timestamp":"2026-09-14 20:06:04"}
+{"level":"info","message":"GRE enviada. Ticket: 57e451aa-1df1-4cd7-9f7c-c5847d4971cd","service":"greenter-api","timestamp":"2026-09-14 20:06:04"}
+{"level":"info","message":"GRE enviada. Ticket: 57e451aa-1df1-4cd7-9f7c-c5847d4971cd","service":"greenter-api","timestamp":"2026-09-14 20:06:04"}
+{"level":"error","message":"GRE rechazada. Ticket 57e451aa-1df1-4cd7-9f7c-c5847d4971cd: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-14 20:06:21"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-16 14:33:20"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-16 14:33:23"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-16 14:33:26"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-16 14:33:29"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-16 14:33:30"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-16 14:33:32"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-16 14:33:50"}
+{"level":"error","message":"GRE rechazada. Ticket 79928352-f99e-449e-a6be-02d342416b35: 2569 - Documento identidad del conductor - El dato ingresado no cumple con el formato establecido. :  error: Tipo de conductor Principal - Numero de documento de identidad: errorCode 2569 (nodo: \"cac:DriverPerson/cbc:ID\" valor: \"008464098\")","service":"greenter-api","timestamp":"2026-09-16 14:33:50"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001289","service":"greenter-api","timestamp":"2026-09-16 14:34:08"}
+{"level":"info","message":"XML generado: 5395 bytes","service":"greenter-api","timestamp":"2026-09-16 14:34:08"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-16 14:34:08"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001289","service":"greenter-api","timestamp":"2026-09-16 14:34:08"}
+{"level":"info","message":"GRE enviada. Ticket: 48da6fae-0cbb-4e6e-9315-468f799c38bc","service":"greenter-api","timestamp":"2026-09-16 14:34:08"}
+{"level":"info","message":"GRE enviada. Ticket: 48da6fae-0cbb-4e6e-9315-468f799c38bc","service":"greenter-api","timestamp":"2026-09-16 14:34:09"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001293","service":"greenter-api","timestamp":"2026-09-16 14:34:23"}
+{"level":"info","message":"XML generado: 5503 bytes","service":"greenter-api","timestamp":"2026-09-16 14:34:23"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-16 14:34:23"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001293","service":"greenter-api","timestamp":"2026-09-16 14:34:23"}
+{"level":"info","message":"GRE enviada. Ticket: 60da05ac-02c4-4d4b-90d5-ec4997dd928c","service":"greenter-api","timestamp":"2026-09-16 14:34:23"}
+{"level":"info","message":"GRE enviada. Ticket: 60da05ac-02c4-4d4b-90d5-ec4997dd928c","service":"greenter-api","timestamp":"2026-09-16 14:34:23"}
+{"level":"error","message":"GRE rechazada. Ticket 60da05ac-02c4-4d4b-90d5-ec4997dd928c: 2569 - Documento identidad del conductor - El dato ingresado no cumple con el formato establecido. :  error: Tipo de conductor Principal - Numero de documento de identidad: errorCode 2569 (nodo: \"cac:DriverPerson/cbc:ID\" valor: \"323050125\")","service":"greenter-api","timestamp":"2026-09-16 14:34:24"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001299","service":"greenter-api","timestamp":"2026-09-16 14:34:30"}
+{"level":"info","message":"XML generado: 5451 bytes","service":"greenter-api","timestamp":"2026-09-16 14:34:30"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-16 14:34:31"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001299","service":"greenter-api","timestamp":"2026-09-16 14:34:31"}
+{"level":"info","message":"GRE enviada. Ticket: a4f47804-ec77-49f5-b430-d41d872e7244","service":"greenter-api","timestamp":"2026-09-16 14:34:31"}
+{"level":"info","message":"GRE enviada. Ticket: a4f47804-ec77-49f5-b430-d41d872e7244","service":"greenter-api","timestamp":"2026-09-16 14:34:31"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001302","service":"greenter-api","timestamp":"2026-09-16 14:34:33"}
+{"level":"info","message":"XML generado: 6393 bytes","service":"greenter-api","timestamp":"2026-09-16 14:34:33"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-16 14:34:33"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001302","service":"greenter-api","timestamp":"2026-09-16 14:34:33"}
+{"level":"info","message":"GRE enviada. Ticket: 1a5b8efd-a139-4c8c-a2b9-be101ce336ed","service":"greenter-api","timestamp":"2026-09-16 14:34:33"}
+{"level":"info","message":"GRE enviada. Ticket: 1a5b8efd-a139-4c8c-a2b9-be101ce336ed","service":"greenter-api","timestamp":"2026-09-16 14:34:33"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"08244216\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-09-16 14:34:35"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000241","service":"greenter-api","timestamp":"2026-09-16 14:34:35"}
+{"level":"info","message":"XML generado: 4853 bytes","service":"greenter-api","timestamp":"2026-09-16 14:34:35"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-16 14:34:35"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000241","service":"greenter-api","timestamp":"2026-09-16 14:34:35"}
+{"level":"info","message":"GRE enviada. Ticket: 6760b25d-54b9-4451-8f07-7281813a52e0","service":"greenter-api","timestamp":"2026-09-16 14:34:35"}
+{"level":"info","message":"GRE enviada. Ticket: 6760b25d-54b9-4451-8f07-7281813a52e0","service":"greenter-api","timestamp":"2026-09-16 14:34:35"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001288","service":"greenter-api","timestamp":"2026-09-16 14:34:36"}
+{"level":"info","message":"XML generado: 5784 bytes","service":"greenter-api","timestamp":"2026-09-16 14:34:36"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-16 14:34:36"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001288","service":"greenter-api","timestamp":"2026-09-16 14:34:36"}
+{"level":"info","message":"GRE enviada. Ticket: 5b8a30db-122d-4caa-969b-a4676f518ab2","service":"greenter-api","timestamp":"2026-09-16 14:34:37"}
+{"level":"info","message":"GRE enviada. Ticket: 5b8a30db-122d-4caa-969b-a4676f518ab2","service":"greenter-api","timestamp":"2026-09-16 14:34:37"}
+{"level":"error","message":"GRE rechazada. Ticket 7f162dd7-1042-45a1-8f5b-4e5bbc433712: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:34:47"}
+{"level":"error","message":"GRE rechazada. Ticket da20bae7-dfe7-405d-bd2f-8b04910c22db: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:34:54"}
+{"level":"error","message":"GRE rechazada. Ticket 92011bfb-069d-417d-a6c2-89844ccf1c81: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:35:05"}
+{"level":"error","message":"GRE rechazada. Ticket 97ef58e5-6182-410b-83c4-e4a23e69546d: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:35:21"}
+{"level":"error","message":"GRE rechazada. Ticket 0bc07f9e-21b3-494e-a1ff-6bac9ae3b630: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:35:26"}
+{"level":"error","message":"GRE rechazada. Ticket 0c643051-f509-4266-b7ee-ebbc23bd4ab0: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:35:29"}
+{"level":"error","message":"GRE rechazada. Ticket 3047d0c0-5251-4900-9a9c-14efbd57e26b: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:35:39"}
+{"level":"error","message":"GRE rechazada. Ticket 19b24c1c-e7ed-46dc-8827-d904de6b2a3c: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:35:42"}
+{"level":"error","message":"GRE rechazada. Ticket 4e088f01-d881-4e00-98a7-7a6ee2acd323: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:35:45"}
+{"level":"error","message":"GRE rechazada. Ticket 51662eee-fbb0-4533-b09e-c0f4093ac072: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:35:49"}
+{"level":"error","message":"GRE rechazada. Ticket 2f8ab808-c071-47a9-be9e-4e6a8fe637e5: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:35:51"}
+{"level":"error","message":"GRE rechazada. Ticket d90466a3-2028-4bd7-bbdb-09f2548be287: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-16 14:35:54"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-16 14:53:05"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-16 14:55:22"}
+{"level":"error","message":"Error consultando estado: Request failed with status code 404","service":"greenter-api","timestamp":"2026-09-16 14:55:23"}
+{"level":"error","message":"Error consultando estado: Request failed with status code 404","service":"greenter-api","timestamp":"2026-09-16 14:55:46"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001303","service":"greenter-api","timestamp":"2026-09-16 16:18:04"}
+{"level":"info","message":"XML generado: 5260 bytes","service":"greenter-api","timestamp":"2026-09-16 16:18:04"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-16 16:18:04"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-16 16:18:05"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001303","service":"greenter-api","timestamp":"2026-09-16 16:18:05"}
+{"level":"info","message":"GRE enviada. Ticket: 728750f3-b597-486b-a2dd-c027e85ecae0","service":"greenter-api","timestamp":"2026-09-16 16:18:05"}
+{"level":"info","message":"GRE enviada. Ticket: 728750f3-b597-486b-a2dd-c027e85ecae0","service":"greenter-api","timestamp":"2026-09-16 16:18:05"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-17 11:18:43"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-17 15:05:13"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 12:05:47"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001308","service":"greenter-api","timestamp":"2026-09-18 12:06:00"}
+{"level":"info","message":"XML generado: 5303 bytes","service":"greenter-api","timestamp":"2026-09-18 12:06:00"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-18 12:06:00"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-18 12:06:00"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001308","service":"greenter-api","timestamp":"2026-09-18 12:06:00"}
+{"level":"info","message":"GRE enviada. Ticket: 73cc93f9-8052-48d1-a17f-f4f4b9d9ecd6","service":"greenter-api","timestamp":"2026-09-18 12:06:00"}
+{"level":"info","message":"GRE enviada. Ticket: 73cc93f9-8052-48d1-a17f-f4f4b9d9ecd6","service":"greenter-api","timestamp":"2026-09-18 12:06:00"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR30-00001308.xml","service":"greenter-api","timestamp":"2026-09-18 12:06:43"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU4F3oQ84HYiJDADi58KSth5iOwZEby2D61dMeLCMyYYaBb2vkpHsT4/egN30JhnQA3G18nRExuz2SDJ0I23fQ9zZmsHXbTCAU7lTH/cg+tZZ","service":"greenter-api","timestamp":"2026-09-18 12:06:43"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001307","service":"greenter-api","timestamp":"2026-09-18 12:09:50"}
+{"level":"info","message":"XML generado: 5302 bytes","service":"greenter-api","timestamp":"2026-09-18 12:09:50"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-18 12:09:50"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001307","service":"greenter-api","timestamp":"2026-09-18 12:09:50"}
+{"level":"info","message":"GRE enviada. Ticket: 172de72f-2557-459e-b087-422bb08736be","service":"greenter-api","timestamp":"2026-09-18 12:09:50"}
+{"level":"info","message":"GRE enviada. Ticket: 172de72f-2557-459e-b087-422bb08736be","service":"greenter-api","timestamp":"2026-09-18 12:09:50"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR30-00001307.xml","service":"greenter-api","timestamp":"2026-09-18 12:09:55"}
+{"level":"warn","message":"No se encontró URL de QR en el CDR del ticket 172de72f-2557-459e-b087-422bb08736be","service":"greenter-api","timestamp":"2026-09-18 12:09:55"}
+{"level":"error","message":"GRE rechazada. Ticket 172de72f-2557-459e-b087-422bb08736be: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-18 12:09:55"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR30-00001307.xml","service":"greenter-api","timestamp":"2026-09-18 12:10:36"}
+{"level":"warn","message":"No se encontró URL de QR en el CDR del ticket 172de72f-2557-459e-b087-422bb08736be","service":"greenter-api","timestamp":"2026-09-18 12:10:36"}
+{"level":"error","message":"GRE rechazada. Ticket 172de72f-2557-459e-b087-422bb08736be: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-18 12:10:36"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 17:07:09"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001311","service":"greenter-api","timestamp":"2026-09-18 17:07:26"}
+{"level":"info","message":"XML generado: 5795 bytes","service":"greenter-api","timestamp":"2026-09-18 17:07:26"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-18 17:07:26"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-18 17:07:26"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001311","service":"greenter-api","timestamp":"2026-09-18 17:07:26"}
+{"level":"info","message":"GRE enviada. Ticket: 3a83998a-1d8e-4a79-a5b2-4a539fa2a864","service":"greenter-api","timestamp":"2026-09-18 17:07:26"}
+{"level":"info","message":"GRE enviada. Ticket: 3a83998a-1d8e-4a79-a5b2-4a539fa2a864","service":"greenter-api","timestamp":"2026-09-18 17:07:26"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR30-00001311.xml","service":"greenter-api","timestamp":"2026-09-18 17:07:29"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU+LIRh9icZYCBAswTMAFTHko4JwZiTPzCnvsLwDY47SSCmkxWtmjhuTXrzSOrbIgoO+f1xwrYKL57q8R+74eMf4=","service":"greenter-api","timestamp":"2026-09-18 17:07:29"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001314","service":"greenter-api","timestamp":"2026-09-18 18:14:15"}
+{"level":"info","message":"XML generado: 5487 bytes","service":"greenter-api","timestamp":"2026-09-18 18:14:15"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-18 18:14:15"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-18 18:14:15"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001314","service":"greenter-api","timestamp":"2026-09-18 18:14:15"}
+{"level":"info","message":"GRE enviada. Ticket: 04bd5625-1fd1-47af-aac6-711fa25c32ad","service":"greenter-api","timestamp":"2026-09-18 18:14:16"}
+{"level":"info","message":"GRE enviada. Ticket: 04bd5625-1fd1-47af-aac6-711fa25c32ad","service":"greenter-api","timestamp":"2026-09-18 18:14:16"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR30-00001314.xml","service":"greenter-api","timestamp":"2026-09-18 18:14:23"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU403/HZ/bm5QXROMTx2IQasrABz+dLC7a8nPqm0VG60qqafQnzkzaT85W7pyI9mf11yD/DtXhExNob2BIMme/sM=","service":"greenter-api","timestamp":"2026-09-18 18:14:23"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001293","service":"greenter-api","timestamp":"2026-09-18 18:18:24"}
+{"level":"info","message":"XML generado: 5503 bytes","service":"greenter-api","timestamp":"2026-09-18 18:18:24"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-18 18:18:24"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001293","service":"greenter-api","timestamp":"2026-09-18 18:18:24"}
+{"level":"info","message":"GRE enviada. Ticket: d561448f-2d67-419a-bdb7-a579d885e702","service":"greenter-api","timestamp":"2026-09-18 18:18:24"}
+{"level":"info","message":"GRE enviada. Ticket: d561448f-2d67-419a-bdb7-a579d885e702","service":"greenter-api","timestamp":"2026-09-18 18:18:25"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR30-00001293.xml","service":"greenter-api","timestamp":"2026-09-18 18:18:26"}
+{"level":"warn","message":"No se encontró URL de QR en el CDR del ticket d561448f-2d67-419a-bdb7-a579d885e702","service":"greenter-api","timestamp":"2026-09-18 18:18:26"}
+{"level":"error","message":"GRE rechazada. Ticket d561448f-2d67-419a-bdb7-a579d885e702: 2569 - Documento identidad del conductor - El dato ingresado no cumple con el formato establecido. :  error: Tipo de conductor Principal - Numero de documento de identidad: errorCode 2569 (nodo: \"cac:DriverPerson/cbc:ID\" valor: \"323050125\")","service":"greenter-api","timestamp":"2026-09-18 18:18:26"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001307","service":"greenter-api","timestamp":"2026-09-18 18:21:05"}
+{"level":"info","message":"XML generado: 5302 bytes","service":"greenter-api","timestamp":"2026-09-18 18:21:05"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-18 18:21:05"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001307","service":"greenter-api","timestamp":"2026-09-18 18:21:05"}
+{"level":"info","message":"GRE enviada. Ticket: 31855434-d249-44ff-a545-8b7ab598f74b","service":"greenter-api","timestamp":"2026-09-18 18:21:05"}
+{"level":"info","message":"GRE enviada. Ticket: 31855434-d249-44ff-a545-8b7ab598f74b","service":"greenter-api","timestamp":"2026-09-18 18:21:05"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR30-00001307.xml","service":"greenter-api","timestamp":"2026-09-18 18:21:07"}
+{"level":"warn","message":"No se encontró URL de QR en el CDR del ticket 31855434-d249-44ff-a545-8b7ab598f74b","service":"greenter-api","timestamp":"2026-09-18 18:21:07"}
+{"level":"error","message":"GRE rechazada. Ticket 31855434-d249-44ff-a545-8b7ab598f74b: 2108 - Presentación fuera de fecha o con Fecha/hora mayor a la recepción en SUNAT","service":"greenter-api","timestamp":"2026-09-18 18:21:07"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:26:58"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:27:02"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:27:04"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:27:08"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:27:09"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:27:11"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:27:13"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:27:16"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:27:21"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:27:24"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:27:28"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:27:31"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 18:30:45"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-18 22:29:13"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-19 16:56:00"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-19 16:56:05"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-19 16:56:07"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-19 16:56:09"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000243","service":"greenter-api","timestamp":"2026-09-19 16:56:25"}
+{"level":"info","message":"XML generado: 5943 bytes","service":"greenter-api","timestamp":"2026-09-19 16:56:25"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-19 16:56:25"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-19 16:56:25"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000243","service":"greenter-api","timestamp":"2026-09-19 16:56:25"}
+{"level":"info","message":"GRE enviada. Ticket: 3181e270-18ab-4123-ae74-a9714e1888b8","service":"greenter-api","timestamp":"2026-09-19 16:56:26"}
+{"level":"info","message":"GRE enviada. Ticket: 3181e270-18ab-4123-ae74-a9714e1888b8","service":"greenter-api","timestamp":"2026-09-19 16:56:26"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR20-00000243.xml","service":"greenter-api","timestamp":"2026-09-19 16:56:27"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HUxuEj3Clt0GelpfKd/0rFmHlUtO8oxCG+pqmNSNgaJv/b4vyYE40D9/Y1QU+86CADevMDAjdffX1zePDJZZyVd4=","service":"greenter-api","timestamp":"2026-09-19 16:56:27"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-21 10:46:30"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-21 18:21:40"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-21 22:05:14"}
+{"level":"info","message":"Greenter API corriendo en puerto 3000","service":"greenter-api","timestamp":"2026-09-22 13:38:28"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001322","service":"greenter-api","timestamp":"2026-09-22 13:38:43"}
+{"level":"info","message":"XML generado: 6485 bytes","service":"greenter-api","timestamp":"2026-09-22 13:38:43"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-22 13:38:43"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-22 13:38:43"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001322","service":"greenter-api","timestamp":"2026-09-22 13:38:43"}
+{"level":"info","message":"GRE enviada. Ticket: 147723eb-7642-4aa8-8d1e-2f32d755a298","service":"greenter-api","timestamp":"2026-09-22 13:38:43"}
+{"level":"info","message":"GRE enviada. Ticket: 147723eb-7642-4aa8-8d1e-2f32d755a298","service":"greenter-api","timestamp":"2026-09-22 13:38:43"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR30-00001322.xml","service":"greenter-api","timestamp":"2026-09-22 13:38:45"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HUwB1RO4Sax1vJGqKWx8m4ynlUtO8oxCG+pqmNSNgaJv/sF4R5FSiMCq8mXgcIWel0+vMDAjdffX1zePDJZZyVd4=","service":"greenter-api","timestamp":"2026-09-22 13:38:45"}
+{"level":"info","message":"Iniciando emisión GRE: TR30-00001323","service":"greenter-api","timestamp":"2026-09-22 13:38:50"}
+{"level":"info","message":"XML generado: 5557 bytes","service":"greenter-api","timestamp":"2026-09-22 13:38:50"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-22 13:38:50"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR30-00001323","service":"greenter-api","timestamp":"2026-09-22 13:38:50"}
+{"level":"info","message":"GRE enviada. Ticket: 72227fb6-e2c0-40e9-b98e-4ba2f21b4871","service":"greenter-api","timestamp":"2026-09-22 13:38:50"}
+{"level":"info","message":"GRE enviada. Ticket: 72227fb6-e2c0-40e9-b98e-4ba2f21b4871","service":"greenter-api","timestamp":"2026-09-22 13:38:50"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR30-00001323.xml","service":"greenter-api","timestamp":"2026-09-22 13:38:51"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU/raAEaeJyU/EUTW/Rv7ebflUtO8oxCG+pqmNSNgaJv/HBuO1Qrf7Bj21FUUylc6wOvMDAjdffX1zePDJZZyVd4=","service":"greenter-api","timestamp":"2026-09-22 13:38:51"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"07529485\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-09-22 13:38:54"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000244","service":"greenter-api","timestamp":"2026-09-22 13:38:54"}
+{"level":"info","message":"XML generado: 4843 bytes","service":"greenter-api","timestamp":"2026-09-22 13:38:54"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-22 13:38:54"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000244","service":"greenter-api","timestamp":"2026-09-22 13:38:54"}
+{"level":"info","message":"GRE enviada. Ticket: 22ee657d-e8f8-4e41-8c11-ee88e7b9353a","service":"greenter-api","timestamp":"2026-09-22 13:38:54"}
+{"level":"info","message":"GRE enviada. Ticket: 22ee657d-e8f8-4e41-8c11-ee88e7b9353a","service":"greenter-api","timestamp":"2026-09-22 13:38:54"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR20-00000244.xml","service":"greenter-api","timestamp":"2026-09-22 13:38:55"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HUystJFwZKYLizXsXpiAwFUBLKRA4RX+KHST1Y7e1OqOCcXm0Coui+8etCZxlOC7vlz7z57tQh3oq2HRW9cuhYmU=","service":"greenter-api","timestamp":"2026-09-22 13:38:55"}
+{"level":"warn","message":"Modalidad pública (01) sin transportista con RUC válido (\"07529485\"): la guía se emitirá como TRANSPORTE PRIVADO (02)","service":"greenter-api","timestamp":"2026-09-22 13:39:00"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000245","service":"greenter-api","timestamp":"2026-09-22 13:39:00"}
+{"level":"info","message":"XML generado: 4861 bytes","service":"greenter-api","timestamp":"2026-09-22 13:39:00"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-22 13:39:00"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000245","service":"greenter-api","timestamp":"2026-09-22 13:39:00"}
+{"level":"info","message":"GRE enviada. Ticket: 41a7d0ab-f69b-4c71-91e0-0ef5472f65c4","service":"greenter-api","timestamp":"2026-09-22 13:39:00"}
+{"level":"info","message":"GRE enviada. Ticket: 41a7d0ab-f69b-4c71-91e0-0ef5472f65c4","service":"greenter-api","timestamp":"2026-09-22 13:39:01"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR20-00000245.xml","service":"greenter-api","timestamp":"2026-09-22 13:39:01"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU2n42TVFGSSUy229ZsK/gCRLKRA4RX+KHST1Y7e1OqOCm1oCJ7Jfl/xIypFMRunIoD0UuxCRqSPDwfYAO7vz+f0=","service":"greenter-api","timestamp":"2026-09-22 13:39:01"}
+{"level":"info","message":"Iniciando emisión GRE: TR20-00000246","service":"greenter-api","timestamp":"2026-09-22 13:39:05"}
+{"level":"info","message":"XML generado: 5545 bytes","service":"greenter-api","timestamp":"2026-09-22 13:39:05"}
+{"level":"info","message":"XML firmado correctamente","service":"greenter-api","timestamp":"2026-09-22 13:39:05"}
+{"level":"info","message":"Enviando GRE a SUNAT: 20492641431-09-TR20-00000246","service":"greenter-api","timestamp":"2026-09-22 13:39:05"}
+{"level":"info","message":"GRE enviada. Ticket: 84c8b18a-9975-439d-b462-695cde9794c4","service":"greenter-api","timestamp":"2026-09-22 13:39:05"}
+{"level":"info","message":"GRE enviada. Ticket: 84c8b18a-9975-439d-b462-695cde9794c4","service":"greenter-api","timestamp":"2026-09-22 13:39:05"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/greenter-api/CDR/R-20492641431-09-TR20-00000246.xml","service":"greenter-api","timestamp":"2026-09-22 13:39:06"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HUy4wMU/6GREQfSlSFE7/pwZGU3vkpP80K4f8RFSdVf4Iz7aQk35TrkJWpz2GDdiedApSFFZG23daS30za0WFjwk=","service":"greenter-api","timestamp":"2026-09-22 13:39:06"}
+{"level":"info","message":"Listando carpeta de Drive (id: 1sXXbiT3jIUc27MVK9hBVk_iEEAoJhGd3)...","service":"greenter-api","timestamp":"2026-09-23 06:22:37"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 06:22:37"}
+{"level":"info","message":"Obteniendo guías pendientes (idEmpresa=01)...","service":"greenter-api","timestamp":"2026-09-23 06:22:37"}
+{"level":"info","message":"Listando carpeta de Drive (id: 1sXXbiT3jIUc27MVK9hBVk_iEEAoJhGd3)...","service":"greenter-api","timestamp":"2026-09-23 06:22:38"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 06:22:39"}
+{"level":"info","message":"Obteniendo guías pendientes (idEmpresa=01)...","service":"greenter-api","timestamp":"2026-09-23 06:22:39"}
+{"level":"error","message":"Error en ejecución: Failed to connect to 3.144.237.208:1433 in 15000ms","service":"greenter-api","timestamp":"2026-09-23 06:22:52"}
+{"level":"error","message":"Error en ejecución: Failed to connect to 3.144.237.208:1433 in 15000ms","service":"greenter-api","timestamp":"2026-09-23 06:22:54"}
+{"level":"info","message":"Buscando en Drive: \"20492641431-2026-09-22-20605950842-09-TR30-00001320.pdf\"","service":"greenter-api","timestamp":"2026-09-23 06:23:08"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 06:23:08"}
+{"level":"info","message":"Consultando estado en SUNAT (ticket: 41a7d0ab-f69b-4c71-91e0-0ef5472f65c4)...","service":"greenter-api","timestamp":"2026-09-23 06:23:09"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-23 06:23:09"}
+{"level":"info","message":"Buscando en Drive: \"TR30-00001320\"","service":"greenter-api","timestamp":"2026-09-23 06:23:09"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/CDR/R-20492641431-09-TR20-00000245.xml","service":"greenter-api","timestamp":"2026-09-23 06:23:09"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU2n42TVFGSSUy229ZsK/gCRLKRA4RX+KHST1Y7e1OqOCm1oCJ7Jfl/xIypFMRunIoD0UuxCRqSPDwfYAO7vz+f0=","service":"greenter-api","timestamp":"2026-09-23 06:23:09"}
+{"level":"info","message":"QR URL: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU2n42TVFGSSUy229ZsK/gCRLKRA4RX+KHST1Y7e1OqOCm1oCJ7Jfl/xIypFMRunIoD0UuxCRqSPDwfYAO7vz+f0=","service":"greenter-api","timestamp":"2026-09-23 06:23:09"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 06:23:09"}
+{"level":"info","message":"Buscando en Drive: \"TR30-00001320\"","service":"greenter-api","timestamp":"2026-09-23 06:23:10"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 06:23:10"}
+{"level":"info","message":"Buscando en Drive: \"20492641431-2026-09-22-20605950842-09-TR30-00001320.pdf\"","service":"greenter-api","timestamp":"2026-09-23 06:23:10"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 06:23:10"}
+{"level":"info","message":"Consultando estado en SUNAT (ticket: 41a7d0ab-f69b-4c71-91e0-0ef5472f65c4)...","service":"greenter-api","timestamp":"2026-09-23 06:23:11"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-23 06:23:11"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/CDR/R-20492641431-09-TR20-00000245.xml","service":"greenter-api","timestamp":"2026-09-23 06:23:11"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU2n42TVFGSSUy229ZsK/gCRLKRA4RX+KHST1Y7e1OqOCm1oCJ7Jfl/xIypFMRunIoD0UuxCRqSPDwfYAO7vz+f0=","service":"greenter-api","timestamp":"2026-09-23 06:23:11"}
+{"level":"info","message":"QR URL: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU2n42TVFGSSUy229ZsK/gCRLKRA4RX+KHST1Y7e1OqOCm1oCJ7Jfl/xIypFMRunIoD0UuxCRqSPDwfYAO7vz+f0=","service":"greenter-api","timestamp":"2026-09-23 06:23:11"}
+{"level":"info","message":"Consultando estado en SUNAT (ticket: 84c8b18a-9975-439d-b462-695cde9794c4)...","service":"greenter-api","timestamp":"2026-09-23 06:23:11"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-23 06:23:11"}
+{"level":"info","message":"Buscando en Drive: \"TR30\"","service":"greenter-api","timestamp":"2026-09-23 06:23:12"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 06:23:12"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/CDR/R-20492641431-09-TR20-00000246.xml","service":"greenter-api","timestamp":"2026-09-23 06:23:12"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HUy4wMU/6GREQfSlSFE7/pwZGU3vkpP80K4f8RFSdVf4Iz7aQk35TrkJWpz2GDdiedApSFFZG23daS30za0WFjwk=","service":"greenter-api","timestamp":"2026-09-23 06:23:12"}
+{"level":"info","message":"QR URL: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HUy4wMU/6GREQfSlSFE7/pwZGU3vkpP80K4f8RFSdVf4Iz7aQk35TrkJWpz2GDdiedApSFFZG23daS30za0WFjwk=","service":"greenter-api","timestamp":"2026-09-23 06:23:12"}
+{"level":"info","message":"Obteniendo guías pendientes (idEmpresa=01)...","service":"greenter-api","timestamp":"2026-09-23 16:04:13"}
+{"level":"info","message":"Listando carpeta de Drive (id: 1eSUh6Ru3nVhy0g1rm9gh4F9opZK_35Iu)...","service":"greenter-api","timestamp":"2026-09-23 16:05:01"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 16:05:02"}
+{"level":"info","message":"Consultando estado en SUNAT (ticket: 3cc9d8eb-4b7d-4dcd-8128-0eb1671e0413)...","service":"greenter-api","timestamp":"2026-09-23 16:05:06"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-23 16:05:07"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/CDR/R-20492641431-09-TR30-00001321.xml","service":"greenter-api","timestamp":"2026-09-23 16:05:07"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU87wdv60NPImRY3YMIvlnfsZ+0LUmsYtYz9pdtrO3H9j0rz5GkYnGeE+ZoEZNSA6oPdc5pR5BwD2m6WIZfoUa8s=","service":"greenter-api","timestamp":"2026-09-23 16:05:07"}
+{"level":"info","message":"QR URL: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU87wdv60NPImRY3YMIvlnfsZ+0LUmsYtYz9pdtrO3H9j0rz5GkYnGeE+ZoEZNSA6oPdc5pR5BwD2m6WIZfoUa8s=","service":"greenter-api","timestamp":"2026-09-23 16:05:07"}
+{"level":"info","message":"Obteniendo guías pendientes (idEmpresa=01)...","service":"greenter-api","timestamp":"2026-09-23 16:05:54"}
+{"level":"info","message":"Flujo completo iniciado (idEmpresa=01)","service":"greenter-api","timestamp":"2026-09-23 16:05:58"}
+{"level":"info","message":"Encontradas 1 guía(s)","service":"greenter-api","timestamp":"2026-09-23 16:05:59"}
+{"level":"info","message":"TR30-00001321: verificando en SUNAT (ticket 3cc9d8eb-4b7d-4dcd-8128-0eb1671e0413)...","service":"greenter-api","timestamp":"2026-09-23 16:05:59"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-23 16:06:00"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/CDR/R-20492641431-09-TR30-00001321.xml","service":"greenter-api","timestamp":"2026-09-23 16:06:00"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU87wdv60NPImRY3YMIvlnfsZ+0LUmsYtYz9pdtrO3H9j0rz5GkYnGeE+ZoEZNSA6oPdc5pR5BwD2m6WIZfoUa8s=","service":"greenter-api","timestamp":"2026-09-23 16:06:00"}
+{"level":"info","message":"TR30-00001321: ACEPTADO por SUNAT - QR obtenido","service":"greenter-api","timestamp":"2026-09-23 16:06:00"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 16:06:00"}
+{"level":"warn","message":"TR30-00001321: no se encontró PDF en Drive","service":"greenter-api","timestamp":"2026-09-23 16:06:01"}
+{"level":"info","message":"Flujo completado","service":"greenter-api","timestamp":"2026-09-23 16:06:01"}
+{"level":"info","message":"QR reemplazado en: /tmp/opencode/1320-integrado-qr.pdf","service":"greenter-api","timestamp":"2026-09-23 16:06:06"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 16:07:58"}
+{"level":"info","message":"Flujo completo iniciado (idEmpresa=01)","service":"greenter-api","timestamp":"2026-09-23 16:11:42"}
+{"level":"info","message":"Encontradas 1 guía(s)","service":"greenter-api","timestamp":"2026-09-23 16:11:43"}
+{"level":"info","message":"TR30-00001321: verificando en SUNAT (ticket 3cc9d8eb-4b7d-4dcd-8128-0eb1671e0413)...","service":"greenter-api","timestamp":"2026-09-23 16:11:43"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-23 16:11:44"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/CDR/R-20492641431-09-TR30-00001321.xml","service":"greenter-api","timestamp":"2026-09-23 16:11:44"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU87wdv60NPImRY3YMIvlnfsZ+0LUmsYtYz9pdtrO3H9j0rz5GkYnGeE+ZoEZNSA6oPdc5pR5BwD2m6WIZfoUa8s=","service":"greenter-api","timestamp":"2026-09-23 16:11:44"}
+{"level":"info","message":"TR30-00001321: ACEPTADO por SUNAT - QR obtenido","service":"greenter-api","timestamp":"2026-09-23 16:11:44"}
+{"level":"info","message":"TR30-00001321: nombre esperado en Drive: 20492641431-2026-09-22-20251729574-09-TR30-00001321.pdf","service":"greenter-api","timestamp":"2026-09-23 16:11:44"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 16:11:44"}
+{"level":"warn","message":"TR30-00001321: no se encontró PDF en Drive","service":"greenter-api","timestamp":"2026-09-23 16:11:46"}
+{"level":"info","message":"Flujo completado","service":"greenter-api","timestamp":"2026-09-23 16:11:46"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 16:11:53"}
+{"level":"info","message":"Flujo completo iniciado (idEmpresa=01)","service":"greenter-api","timestamp":"2026-09-23 16:16:25"}
+{"level":"info","message":"Encontradas 1 guía(s)","service":"greenter-api","timestamp":"2026-09-23 16:16:26"}
+{"level":"info","message":"TR30-00001321: verificando en SUNAT (ticket 3cc9d8eb-4b7d-4dcd-8128-0eb1671e0413)...","service":"greenter-api","timestamp":"2026-09-23 16:16:26"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-23 16:16:26"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/CDR/R-20492641431-09-TR30-00001321.xml","service":"greenter-api","timestamp":"2026-09-23 16:16:26"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU87wdv60NPImRY3YMIvlnfsZ+0LUmsYtYz9pdtrO3H9j0rz5GkYnGeE+ZoEZNSA6oPdc5pR5BwD2m6WIZfoUa8s=","service":"greenter-api","timestamp":"2026-09-23 16:16:26"}
+{"level":"info","message":"TR30-00001321: ACEPTADO por SUNAT - QR obtenido","service":"greenter-api","timestamp":"2026-09-23 16:16:26"}
+{"level":"info","message":"TR30-00001321: nombre esperado en Drive: 20492641431-2026-09-22-20251729574-09-TR30-00001321.pdf","service":"greenter-api","timestamp":"2026-09-23 16:16:27"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 16:16:27"}
+{"level":"warn","message":"TR30-00001321: no se encontró PDF en Drive, se omite","service":"greenter-api","timestamp":"2026-09-23 16:16:29"}
+{"level":"info","message":"Flujo completado","service":"greenter-api","timestamp":"2026-09-23 16:16:29"}
+{"level":"info","message":"Obteniendo guías pendientes (idEmpresa=01)...","service":"greenter-api","timestamp":"2026-09-23 16:17:53"}
+{"level":"info","message":"Obteniendo guías pendientes (idEmpresa=01)...","service":"greenter-api","timestamp":"2026-09-23 16:20:26"}
+{"level":"error","message":"Error en ejecución: Failed to connect to localhost:1433 - Could not connect (sequence)","service":"greenter-api","timestamp":"2026-09-23 16:20:26"}
+{"level":"info","message":"Obteniendo guías pendientes (idEmpresa=01)...","service":"greenter-api","timestamp":"2026-09-23 16:22:44"}
+{"level":"info","message":"Obteniendo guías pendientes (idEmpresa=01)...","service":"greenter-api","timestamp":"2026-09-23 16:23:09"}
+{"level":"info","message":"Obteniendo guías pendientes (idEmpresa=01)...","service":"greenter-api","timestamp":"2026-09-23 16:23:29"}
+{"level":"info","message":"Obteniendo guías pendientes (idEmpresa=01)...","service":"greenter-api","timestamp":"2026-09-23 16:26:47"}
+{"level":"info","message":"Flujo completo iniciado (idEmpresa=01)","service":"greenter-api","timestamp":"2026-09-23 16:26:49"}
+{"level":"info","message":"Encontradas 1 guía(s)","service":"greenter-api","timestamp":"2026-09-23 16:26:50"}
+{"level":"info","message":"TR30-00001321: verificando en SUNAT (ticket 3cc9d8eb-4b7d-4dcd-8128-0eb1671e0413)...","service":"greenter-api","timestamp":"2026-09-23 16:26:50"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-23 16:26:50"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/CDR/R-20492641431-09-TR30-00001321.xml","service":"greenter-api","timestamp":"2026-09-23 16:26:50"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU87wdv60NPImRY3YMIvlnfsZ+0LUmsYtYz9pdtrO3H9j0rz5GkYnGeE+ZoEZNSA6oPdc5pR5BwD2m6WIZfoUa8s=","service":"greenter-api","timestamp":"2026-09-23 16:26:50"}
+{"level":"info","message":"TR30-00001321: ACEPTADO por SUNAT - QR obtenido","service":"greenter-api","timestamp":"2026-09-23 16:26:50"}
+{"level":"info","message":"TR30-00001321: nombre esperado en Drive: 20492641431-2026-09-22-20251729574-09-TR30-00001321.pdf","service":"greenter-api","timestamp":"2026-09-23 16:26:51"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 16:26:51"}
+{"level":"warn","message":"TR30-00001321: no se encontró PDF en Drive, se omite","service":"greenter-api","timestamp":"2026-09-23 16:26:53"}
+{"level":"info","message":"Flujo completado","service":"greenter-api","timestamp":"2026-09-23 16:26:53"}
+{"level":"info","message":"Flujo completo iniciado (idEmpresa=01)","service":"greenter-api","timestamp":"2026-09-23 16:30:12"}
+{"level":"info","message":"Encontradas 1 guía(s)","service":"greenter-api","timestamp":"2026-09-23 16:30:13"}
+{"level":"info","message":"TR30-00001321: verificando en SUNAT (ticket 3cc9d8eb-4b7d-4dcd-8128-0eb1671e0413)...","service":"greenter-api","timestamp":"2026-09-23 16:30:13"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-23 16:30:13"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/CDR/R-20492641431-09-TR30-00001321.xml","service":"greenter-api","timestamp":"2026-09-23 16:30:14"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU87wdv60NPImRY3YMIvlnfsZ+0LUmsYtYz9pdtrO3H9j0rz5GkYnGeE+ZoEZNSA6oPdc5pR5BwD2m6WIZfoUa8s=","service":"greenter-api","timestamp":"2026-09-23 16:30:14"}
+{"level":"info","message":"TR30-00001321: ACEPTADO por SUNAT - QR obtenido","service":"greenter-api","timestamp":"2026-09-23 16:30:14"}
+{"level":"info","message":"TR30-00001321: nombre esperado en Drive: 20492641431-2026-09-22-20251729574-09-TR30-00001321.pdf","service":"greenter-api","timestamp":"2026-09-23 16:30:14"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 16:30:14"}
+{"level":"warn","message":"TR30-00001321: no se encontró PDF en Drive, se omite","service":"greenter-api","timestamp":"2026-09-23 16:30:16"}
+{"level":"info","message":"Flujo completado","service":"greenter-api","timestamp":"2026-09-23 16:30:16"}
+{"level":"info","message":"Flujo completo iniciado (idEmpresa=01)","service":"greenter-api","timestamp":"2026-09-23 16:31:44"}
+{"level":"info","message":"Encontradas 1 guía(s)","service":"greenter-api","timestamp":"2026-09-23 16:31:46"}
+{"level":"info","message":"TR30-00001320: verificando en SUNAT (ticket 76cd48fd-9a72-47d4-a80d-8a52acd869f6)...","service":"greenter-api","timestamp":"2026-09-23 16:31:46"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-23 16:31:46"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/CDR/R-20492641431-09-TR30-00001320.xml","service":"greenter-api","timestamp":"2026-09-23 16:31:46"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU8iqdrZuWh/cDm7RLCCSnUn8Z4p/1kxVNO3kXNdKtQ+2CeWdCq1fYjWApfHreimjClwJ3duLJgVfc/Q54naGZ4o=","service":"greenter-api","timestamp":"2026-09-23 16:31:46"}
+{"level":"info","message":"TR30-00001320: ACEPTADO por SUNAT - QR obtenido","service":"greenter-api","timestamp":"2026-09-23 16:31:46"}
+{"level":"info","message":"TR30-00001320: nombre esperado en Drive: 20492641431-2026-09-22-20605950842-09-TR30-00001320.pdf","service":"greenter-api","timestamp":"2026-09-23 16:31:46"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 16:31:46"}
+{"level":"info","message":"TR30-00001320: PDF encontrado en Drive [14ehO7o8FGuTZTlp_2uKNRculD5QjfkCA] 20492641431-2026-09-22-20605950842-09-TR30-00001320.pdf","service":"greenter-api","timestamp":"2026-09-23 16:31:47"}
+{"level":"info","message":"TR30-00001320: PDF descargado a /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/documentosReferencia/20492641431-2026-09-22-20605950842-09-TR30-00001320.pdf","service":"greenter-api","timestamp":"2026-09-23 16:31:47"}
+{"level":"info","message":"QR reemplazado en: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/documentosReferencia/20492641431-2026-09-22-20605950842-09-TR30-00001320-qr.pdf","service":"greenter-api","timestamp":"2026-09-23 16:31:48"}
+{"level":"info","message":"TR30-00001320: PDF con QR del CDR listo → /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/documentosReferencia/20492641431-2026-09-22-20605950842-09-TR30-00001320-qr.pdf","service":"greenter-api","timestamp":"2026-09-23 16:31:48"}
+{"level":"info","message":"Reemplazando archivo existente en Drive: 20492641431-2026-09-22-20605950842-09-TR30-00001320.pdf [14ehO7o8FGuTZTlp_2uKNRculD5QjfkCA]","service":"greenter-api","timestamp":"2026-09-23 16:31:48"}
+{"level":"error","message":"Error en ejecución: The user does not have sufficient permissions for this file.","service":"greenter-api","timestamp":"2026-09-23 16:31:49"}
+{"level":"info","message":"Flujo completo iniciado (idEmpresa=01)","service":"greenter-api","timestamp":"2026-09-23 17:03:04"}
+{"level":"info","message":"Encontradas 1 guía(s)","service":"greenter-api","timestamp":"2026-09-23 17:03:05"}
+{"level":"info","message":"TR30-00001320: verificando en SUNAT (ticket 76cd48fd-9a72-47d4-a80d-8a52acd869f6)...","service":"greenter-api","timestamp":"2026-09-23 17:03:05"}
+{"level":"info","message":"Token SUNAT obtenido correctamente","service":"greenter-api","timestamp":"2026-09-23 17:03:05"}
+{"level":"info","message":"CDR guardado: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/CDR/R-20492641431-09-TR30-00001320.xml","service":"greenter-api","timestamp":"2026-09-23 17:03:05"}
+{"level":"info","message":"URL QR del CDR: https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=jVxIV+xiPFrshdYkyj5HU8iqdrZuWh/cDm7RLCCSnUn8Z4p/1kxVNO3kXNdKtQ+2CeWdCq1fYjWApfHreimjClwJ3duLJgVfc/Q54naGZ4o=","service":"greenter-api","timestamp":"2026-09-23 17:03:05"}
+{"level":"info","message":"TR30-00001320: ACEPTADO por SUNAT - QR obtenido","service":"greenter-api","timestamp":"2026-09-23 17:03:05"}
+{"level":"info","message":"TR30-00001320: nombre esperado en Drive: 20492641431-2026-09-22-20605950842-09-TR30-00001320.pdf","service":"greenter-api","timestamp":"2026-09-23 17:03:05"}
+{"level":"info","message":"Conectado a Google Drive (service account)","service":"greenter-api","timestamp":"2026-09-23 17:03:06"}
+{"level":"info","message":"TR30-00001320: PDF encontrado en Drive [14ehO7o8FGuTZTlp_2uKNRculD5QjfkCA] 20492641431-2026-09-22-20605950842-09-TR30-00001320.pdf","service":"greenter-api","timestamp":"2026-09-23 17:03:06"}
+{"level":"info","message":"TR30-00001320: PDF descargado a /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/documentosReferencia/20492641431-2026-09-22-20605950842-09-TR30-00001320.pdf","service":"greenter-api","timestamp":"2026-09-23 17:03:07"}
+{"level":"info","message":"QR reemplazado en: /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/documentosReferencia/20492641431-2026-09-22-20605950842-09-TR30-00001320-qr.pdf","service":"greenter-api","timestamp":"2026-09-23 17:03:07"}
+{"level":"info","message":"TR30-00001320: PDF con QR del CDR listo → /home/gustavo/Documents/guiassunatapi/TareaProgramadaGuias/documentosReferencia/20492641431-2026-09-22-20605950842-09-TR30-00001320-qr.pdf","service":"greenter-api","timestamp":"2026-09-23 17:03:07"}
+{"level":"info","message":"Subido a Drive: 20492641431-2026-09-22-20605950842-09-TR30-00001320_2.pdf [1bJpNwq461iX1gWxW_ad_ZbG-rHMbATC-]","service":"greenter-api","timestamp":"2026-09-23 17:03:09"}
+{"level":"info","message":"Subido a Drive: 20492641431-2026-09-22-20605950842-09-TR30-00001320.xml [1lWomUkIX3PlySvTO1AxIdJsbPCaeu_02]","service":"greenter-api","timestamp":"2026-09-23 17:03:11"}
+{"level":"info","message":"TR30-00001320: PDF y CDR subidos a Drive (20492641431-2026-09-22-20605950842-09-TR30-00001320_2.pdf, 20492641431-2026-09-22-20605950842-09-TR30-00001320.xml)","service":"greenter-api","timestamp":"2026-09-23 17:03:11"}
+{"level":"info","message":"Flujo completado","service":"greenter-api","timestamp":"2026-09-23 17:03:11"}
