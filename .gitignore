@@ -10,3 +10,10 @@ guias-pendientes.csv
 driveid.txt
 tmp/
 CDR/
+
+# Credenciales: nunca al repo.
+# .env tiene las credenciales de la BD central y de las 7 bases de las empresas.
+.env
+# Clave privada de la cuenta de servicio de Google Drive, la que sube y lee los PDF.
+driveenviopdf-7a4b8936208f.json
+proyectoalmacenamientowhatsapp-5798b0480329.json
