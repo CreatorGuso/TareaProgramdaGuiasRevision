@@ -10,10 +10,11 @@ class SunatGreService {
    * GET https://api-cpe.sunat.gob.pe/v1/contribuyente/gem/comprobantes/envios/{numTicket}
    * codRespuesta: "98" en proceso, "99" con error, "0" aceptado
    * @param {string} ticket
+   * @param {{clientId:string,clientSecret:string,ruc:string,usuarioSol:string,claveSol:string}} credenciales
    * @returns {Promise<Object>}
    */
-  async consultarEstado(ticket) {
-    const token = await sunatAuth.getToken();
+  async consultarEstado(ticket, credenciales) {
+    const token = await sunatAuth.getToken(credenciales);
 
     const response = await axios.get(
       `${config.sunat.apiBase}/contribuyente/gem/comprobantes/envios/${ticket}`,
@@ -66,10 +67,43 @@ class SunatGreService {
     };
 
     if (data.codRespuesta === '99') {
-      logger.error(`GRE rechazada. Ticket ${ticket}: ${resultado.numError} - ${resultado.descripcion}`);
+      logger.error(
+        `GRE rechazada. RUC ${credenciales.ruc} ticket ${ticket}: ` +
+          `${resultado.numError} - ${resultado.descripcion}`
+      );
     }
 
     return resultado;
+  }
+
+  /**
+   * Comprueba que la URL del QR sacada del CDR siga respondiendo. Es una
+   * lectura, no una escritura: solo informa. Ojo: `descargaqr` devuelve un PDF,
+   * no la imagen del QR (ese lo dibuja localmente reemplazar-qr).
+   * @param {string} qrUrl
+   * @returns {Promise<{ok:boolean, estado:number|null, bytes:number, tipo:string|null, error?:string}>}
+   */
+  async verificarQrUrl(qrUrl) {
+    try {
+      const response = await axios.get(qrUrl, {
+        responseType: 'arraybuffer',
+        timeout: 15000,
+      });
+      return {
+        ok: response.status === 200,
+        estado: response.status,
+        bytes: Buffer.from(response.data).length,
+        tipo: response.headers['content-type'] || null,
+      };
+    } catch (error) {
+      return {
+        ok: false,
+        estado: error.response ? error.response.status : null,
+        bytes: 0,
+        tipo: null,
+        error: error.message,
+      };
+    }
   }
 }
 

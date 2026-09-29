@@ -1,21 +1,29 @@
 const { getConnection, sql } = require('../database/connection');
 
+const txt = (valor) => String(valor ?? '').trim();
+
+// Valor que se deja en documentos_sve.codigovalidacion (CHAR(4)) para marcar que
+// el QR de esa guía ya fue reemplazado por el de SUNAT. Es lo único que importa:
+// spPyOValidaGuia deja de devolver la guía cuando len(codigovalidacion) > 0.
+// Si en su ERP usan otra convención, se cambia acá y nada más.
+const MARCA_QR = 'QR  ';
+
 class DocumentoRepository {
   /**
-   * Lista guías de remisión pendientes (estado=2) o enviadas/en proceso (estado=3), tipo=09
+   * Lista guías de remisión de una empresa (solo para depuración; el flujo
+   * normal usa spPyOValidaGuia).
    */
   async getGuiasPendientes(idEmpresa) {
     const pool = await getConnection();
     const result = await pool.request()
       .input('idEmpresa', sql.VarChar(10), String(idEmpresa))
       .query(`
-        
-      SELECT *
+        SELECT *
         FROM documentos_sve
         WHERE estado = 6
           AND idtipo = '09'
-          AND idempresa = 1 and fecha_doc > '2026-09-01' and serie_doc = 'TR30' and numero_doc = '00001320'
-        ORDER BY fecha_doc DESC 
+          AND idempresa = @idEmpresa
+        ORDER BY fecha_doc DESC
       `);
     return result.recordset;
   }
@@ -37,47 +45,76 @@ class DocumentoRepository {
   }
 
   /**
-   * Obtiene el detalle completo de una guía usando el stored procedure:
-   * exec spmuestracomprobanteguia '01', '01', '030009', 'TR30', '00001186'
-   * Cada fila es un item; los datos de cabecera se repiten en todas las filas
+   * Lee el documento (fila de documentos_sve) en la BD de la empresa.
+   * @param {import('mssql').ConnectionPool} pool - pool de la BD de la empresa
+   * @param {string} idEmpresa
+   * @param {string} idDocumento
    */
-  async getDetalleDocumento(idEmpresa, idOficina, idDocumento, serie, nroDoc) {
-    const pool = await getConnection();
+  async getPorIdDocumento(pool, idEmpresa, idDocumento) {
+    const result = await pool.request()
+      .input('idempresa', sql.Char(2), String(idEmpresa))
+      .input('iddocumento', sql.Char(12), String(idDocumento))
+      .query(`
+        SELECT TOP 1 *
+        FROM documentos_sve
+        WHERE idempresa = @idempresa
+          AND iddocumento = @iddocumento
+          AND idtipo = '09'
+      `);
+    return result.recordset[0] || null;
+  }
+
+  /**
+   * Marca la guía como having el QR reemplazado.
+   *
+   * OJO: aquí NO se guarda la URL del QR. La columna `codigovalidacion` de
+   * `documentos_sve` es CHAR(4) —no cabe una URL de SUNAT, que mide unos 250
+   * caracteres— y para las guías (idtipo '09') el ERP no la usa: siempre está
+   * vacía. Lo que hace es de marcador: spPyOValidaGuia pide las guías con
+   * `len(codigovalidacion) = 0`, así que con ponerle cualquier valor no vacío la
+   * guía deja de salir del listado y no se vuelve a procesar.
+   *
+   * Se usa CHAR(4) con un valor corto y fijo en vez de la URL a propósito: una
+   * URL recortada a 4 caracteres dejaría el PDF con un QR inservible.
+   *
+   * @param {import('mssql').ConnectionPool} pool - pool de la BD de la empresa
+   * @param {string} idEmpresa
+   * @param {string} idDocumento
+   * @param {string} [marca] - valor a dejar en codigovalidacion (4 caracteres)
+   * @returns {Promise<number>} filas actualizadas
+   */
+  async marcarQrReemplazado(pool, idEmpresa, idDocumento, marca = MARCA_QR) {
+    const resultado = await pool.request()
+      .input('idempresa', sql.Char(2), String(idEmpresa))
+      .input('iddocumento', sql.Char(12), String(idDocumento))
+      .input('marca', sql.Char(4), String(marca).slice(0, 4))
+      .query(`
+        UPDATE documentos_sve
+        SET codigovalidacion = @marca
+        WHERE idempresa = @idempresa
+          AND iddocumento = @iddocumento
+          AND idtipo = '09'
+      `);
+    return resultado.rowsAffected.reduce((total, f) => total + f, 0);
+  }
+
+  /**
+   * Detalle completo de una guía, vía stored procedure de la BD de la empresa:
+   *   exec spMuestraComprobanteGuia '<idempresa>','<idoficina>','<idtipo>','<serie>','<nro>'
+   * Cada fila es un ítem; los datos de cabecera se repiten en todas.
+   * @param {import('mssql').ConnectionPool} pool - pool de la BD de la empresa
+   */
+  async getDetalleDocumento(pool, idEmpresa, idOficina, idTipo, serie, nroDoc) {
     const v = (valor) => String(valor ?? '').trim().replaceAll("'", "''");
     const result = await pool.request().query(`
-      exec spmuestracomprobanteguia
+      exec spMuestraComprobanteGuia
         '${v(idEmpresa)}',
         '${v(idOficina)}',
-        '030009',
+        '${v(idTipo)}',
         '${v(serie)}',
         '${v(nroDoc)}'
     `);
     return result.recordset;
-  }
-
-  /**
-   * Actualiza estado del documento después de enviar/consultar a SUNAT
-   * estado: char(1) | respuestaSunat: int (código SUNAT 0/98/99) |
-   * idSunat: varchar(50) ticket | codErrorSunat: char(4)
-   */
-  async actualizarEnvio(idDocumento, estado, respuestaSunat, idSunat, codError) {
-    const pool = await getConnection();
-    await pool.request()
-      .input('idDocumento', sql.VarChar(20), idDocumento)
-      .input('estado', sql.Char(1), String(estado))
-      .input('respuestaSunat', sql.Int, Number(respuestaSunat) || 0)
-      .input('idSunat', sql.VarChar(50), idSunat || '')
-      .input('fechaSunat', sql.DateTime, new Date())
-      .input('codErrorSunat', sql.Char(4), (codError || '').slice(0, 4))
-      .query(`
-        UPDATE documentos_sve
-        SET estado = @estado,
-            respuesta_sunat = @respuestaSunat,
-            id_sunat = @idSunat,
-            fecha_sunat = @fechaSunat,
-            coderror_sunat = @codErrorSunat
-        WHERE iddocumento = @idDocumento
-      `);
   }
 }
 

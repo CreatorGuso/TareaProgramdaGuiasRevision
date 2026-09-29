@@ -38,6 +38,30 @@ class CdrService {
   }
 
   /**
+   * Borra un CDR ya subido a Drive. Se hace en el mismo documento para que una
+   * corrida larga de cientos de guías no deje el disco lleno de XML.
+   * @param {string|null} ruta
+   */
+  async borrar(ruta) {
+    if (!ruta) return;
+    await fs.promises.rm(ruta, { force: true }).catch(() => {});
+  }
+
+  /**
+   * Vacía la carpeta de CDR. Se llama al terminar la corrida: los CDR ya están
+   * subidos a Drive y se pueden volver a bajar de SUNAT cuando haga falta.
+   */
+  async limpiar() {
+    try {
+      const { length } = await fs.promises.readdir(this.dir);
+      if (length) logger.info(`Limpiando ${length} CDR descargado(s) de ${this.dir}`);
+      await fs.promises.rm(this.dir, { recursive: true, force: true });
+    } catch (error) {
+      logger.warn(`No se pudo limpiar ${this.dir}: ${error.message}`);
+    }
+  }
+
+  /**
    * Extrae la URL del QR desde el ApplicationResponse del CDR:
    * cac:DocumentResponse/cac:DocumentReference/cbc:DocumentDescription
    * @param {string} xml

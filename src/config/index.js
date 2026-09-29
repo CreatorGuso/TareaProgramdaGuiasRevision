@@ -14,27 +14,33 @@ module.exports = {
     },
   },
 
+  // Credenciales SUNAT: NO van aquí, son por empresa y se leen de v_empresas
+  // (ruc, usuariosol, clavesol, nomcertificadojks=clientId, clacertificadojks=clientSecret).
+  // Solo las URLs, que son comunes a todos.
   sunat: {
-    clientId: process.env.SUNAT_CLIENT_ID,
-    clientSecret: process.env.SUNAT_CLIENT_SECRET,
-    ruc: process.env.SUNAT_RUC,
-    usuarioSol: process.env.SUNAT_USUARIO_SOL,
-    claveSol: process.env.SUNAT_CLAVE_SOL,
     apiBase: 'https://api-cpe.sunat.gob.pe/v1',
     seguridadBase: 'https://api-seguridad.sunat.gob.pe/v1',
     scope: 'https://api-cpe.sunat.gob.pe',
   },
 
-  certificates: {
-    dir: process.env.CERTIFICATES_DIR || './certificates',
+  // El resultado de spPyOValidaGuia se guarda en este archivo. El SP solo
+  // existe en la BD central (admin) y su permiso EXECUTE no es heredable, así
+  // que se ejecuta UNA vez (comando `exportar`) y después la app trabaja contra
+  // este archivo, moviéndose sola entre las BD de cada empresa.
+  pendientes: {
+    archivo: process.env.PENDIENTES_ARCHIVO || path.join(__dirname, '../../guias-pendientes.json'),
   },
 
+  // Los CDR se descargan de SUNAT, se suben a Drive con el nombre del PDF y se
+  // borran: la carpeta queda limpia al terminar la corrida.
   cdr: {
     dir: process.env.CDR_DIR || path.join(__dirname, '../../CDR'),
   },
 
+  // La carpeta de Drive YA NO es una sola: spPyOValidaGuia devuelve el id de la
+  // carpeta de cada guía en la columna DriveID, y es esa la que se usa. Esta
+  // cuenta de servicio es la que tiene acceso a esas carpetas.
   drive: {
-    credenciales: path.join(__dirname, '../../proyectoalmacenamientowhatsapp-5798b0480329.json'),
-    folderIdFile: path.join(__dirname, '../../driveid.txt'),
+    credenciales: path.join(__dirname, '../../driveenviopdf-7a4b8936208f.json'),
   },
 };

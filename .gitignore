@@ -1,1 +1,12 @@
 node_modules
+
+# Listado de guías pendientes que genera `node src/server.js exportar`.
+# Es un snapshot: se regenera con el SP, no tiene sentido versionarlo.
+guias-pendientes.json
+guias-pendientes.csv
+
+# Credenciales de la cuenta de servicio de Google
+*.json.importado
+driveid.txt
+tmp/
+CDR/
