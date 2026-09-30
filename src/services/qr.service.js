@@ -28,6 +28,10 @@ class QrService {
   /**
    * Detecta el QR de un PDF y lo reemplaza por uno nuevo con el contenido indicado.
    * Delega en el proyecto reemplazar-qr/ (requiere pdftoppm / poppler-utils).
+   *
+   * Esto NO es una herramienta de prueba: es el paso 2 del flujo real de `procesar`
+   * (ver `src/server.js`), entre bajar el PDF de Drive y subirlo de vuelta. Corre en
+   * producción y sin esto ninguna guía queda con el QR de SUNAT.
    * @param {string} entrada - ruta del PDF original
    * @param {string} contenidoQr - texto/URL del QR nuevo (típicamente el qrUrl del CDR)
    * @param {string} [salida] - ruta del PDF resultante (por defecto <entrada>-qr.pdf)
@@ -42,10 +46,16 @@ class QrService {
     }
     const destino = salida || entrada.replace(/\.pdf$/i, '') + '-qr.pdf';
 
+    // El render del QR se hace en la misma carpeta que el PDF de entrada (que en
+    // la app es tmp/), no en el TEMP del sistema: mkdtemp no crea el padre y en
+    // producción la variable TEMP apunta a una ruta inexistente.
+    const dirTemporal = path.dirname(entrada);
+    await fs.promises.mkdir(dirTemporal, { recursive: true });
+
     await new Promise((resolve, reject) => {
       execFile(
         'node',
-        [SCRIPT, '--entrada', entrada, '--qr', contenidoQr, '--salida', destino],
+        [SCRIPT, '--entrada', entrada, '--qr', contenidoQr, '--salida', destino, '--tmp', dirTemporal],
         { timeout: 120000, encoding: 'utf8' },
         (error, stdout, stderr) => {
           if (error) {
@@ -63,9 +73,13 @@ class QrService {
 
   /**
    * Lee el QR que quedó impreso en un PDF, para comprobar que el reemplazo puso
-   * lo que debía. Solo se usa en la prueba de punta a punta (`probar`): rasteriza
-   * la página con pdftoppm y la decodifica con zbarimg, así que necesita
-   * poppler-utils y zbar-tools, que en producción no hacen falta.
+   * lo que debía. Esto sí es solo de prueba: se usa únicamente en `probar`
+   * (`--verificar` en src/server.js), no en el flujo real ni en `todo`.
+   *
+   * Rasteriza la página con pdftoppm y la decodifica con zbarimg. Ojo con las
+   * dependencias: `zbarimg` (zbar-tools) solo se necesita acá, pero `pdftoppm`
+   * (poppler-utils) es de producción igual, porque reemplazar-qr/ lo usa para
+   * detectar el QR. Ver `reemplazar()`.
    * @param {string} rutaPdf
    * @param {{pagina?:number, dpi?:number}} [opciones]
    * @returns {Promise<string|null>} el texto del QR, o null si no se pudo leer

@@ -191,6 +191,15 @@ Externo al proyecto: **`reemplazar-qr/`**, que usa `pdf-lib` y necesita `pdftopp
 (`poppler-utils`) en el sistema. `zbarimg` solo se usó para verificar el QR en las pruebas, no es
 necesario en producción.
 
+> **`reemplazar-qr/` no es una herramienta de prueba: está en el flujo real.** Es el paso 2 de los
+> 5 de `procesar` (bajar el PDF de Drive → **reemplazar el QR** → subir el PDF → subir el CDR →
+> marcar `codigovalidacion`), invocado como proceso hijo desde `qr.service.js` →
+> `reemplazar-qr/src/index.js`. Sin él ninguna guía queda con el QR de SUNAT, así que en
+> producción hacen falta sus 4 dependencias npm (`jsqr`, `pdf-lib`, `pngjs`, `qrcode`) **y
+> `pdftoppm`**. Lo que sí es solo de prueba es `QrService.leerQr()` (`zbarimg`), que corre únicamente
+> en el comando `probar`. Por ser un proyecto aparte con su propio `package.json` y su
+> `node_modules/`, hay que instalar también las dependencias de `reemplazar-qr/` al desplegar.
+
 Las dependencias de emisión (`express`, `soap`, `xml-crypto`, `node-forge`, `xmlbuilder2`, `cors`)
 se uninstalled el 2026-09-23 al retirar la API.
 
@@ -1330,3 +1339,70 @@ PuratosSur** (el resto de las 10 BDs tiene `codigovalidacion` vacía en todos lo
 Como el SP filtra `len(codigovalidacion) = 0`, esas 33 ya no salen del listado: hay que pedirles la
 URL a SUNAT por su `id_sunat` y guardarla.
 
+
+---
+
+## Sesión 2026-09-30 (2) — El render del QR ya no usa el TEMP del sistema
+
+### El problema reportado
+
+En producción 291 guías quedaron pendientes y 5 fallaron con el mismo error:
+
+```
+30/01/260000721200: reemplazar-qr falló: Error: ENOENT: no such file or directory,
+mkdtemp 'C:\Users\ADMINI~1\AppData\Local\Temp\2\reemplazar-qr-XXXXXX'
+```
+
+No hubo cambios de código para producirlo: en la máquina de producción la variable `TEMP`/`TMP`
+del proceso apunta a `...\AppData\Local\Temp\2`, y esa carpeta no existe.
+
+### Por qué pasaba
+
+`reemplazar-qr/src/index.js:146` hacía:
+
+```js
+const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "reemplazar-qr-"));
+```
+
+`os.tmpdir()` devuelve lo que diga `TEMP`/`TMP`, así que la ruta del error es la del entorno, no una
+ruta fija en el código. **`mkdtemp` crea la carpeta final pero no el padre**, así que si `TEMP`
+apunta a un directorio inexistente, la llamada falla con `ENOENT` siempre. Local no se veía porque
+`os.tmpdir()` es `/tmp`, que sí existe.
+
+### El arreglo
+
+El render del PNG que se decodifica para detectar el QR se crea ahora en `tmp/`, que es la carpeta
+de trabajo de la app (`DIR_TRABAJO`, `src/server.js:24`), la misma donde ya viven los PDF
+descargados. Además se crea el padre antes del `mkdtemp`, para que el fallo no vuelva a aparecer
+con ninguna otra ruta.
+
+| Archivo | Cambio |
+|---------|--------|
+| `reemplazar-qr/src/index.js` | Nueva opción `-t, --tmp <carpeta>` (por defecto `os.tmpdir()`, no cambia el uso suelto del script). El padre se crea con `fs.mkdirSync(base, { recursive: true })` antes del `mkdtemp` |
+| `src/services/qr.service.js` | `reemplazar()` pasa `--tmp` con la carpeta del PDF de entrada, y la assure con `mkdir` recursivo |
+
+Nada se rompe por el otro lado: el temporal sigue borrándose en el `finally` del propio script, el
+`finally` de `src/server.js:439` borra solo los dos PDF (sin recursivo, no toca el subdirectorio) y
+`tmp/` completo se elimina al salir (`src/server.js:931`).
+
+### Verificación
+
+Con un PDF real, forzando `TEMP` a una ruta inexistente:
+
+| Prueba | Resultado |
+|---|---|
+| `mkdtemp` pelado con `TEMP` inexistente (código anterior) | `ENOENT ... mkdtemp '/tmp/.../2/reemplazar-qr-XXXXXX'`, el mismo error de producción |
+| Script con `--tmp` | Detecta el QR original, imprime el nuevo y guarda el PDF |
+| QR impreso en el PDF resultante | `zbarimg` devuelve la URL nueva, no la de SUNAT |
+| Restos `reemplazar-qr-*` | ninguno |
+
+### Lo que queda sucio (no es código)
+
+- **La variable `TEMP` del servidor sigue rota.** El fix esquiva el síntoma para esta app, pero
+  cualquier otra cosa que use `os.tmpdir()` en ese servidor va a fallar igual. Corregir `TEMP`/`TMP`
+  en la tarea programada (o en las variables de sistema) para que apunte a
+  `%USERPROFILE%\AppData\Local\Temp` y no a `...\Temp\2`.
+- **Los 5 DriveID inaccesibles** (`1Rf8Zs2Usa...`, `1L1RAiR2zFx...`, `1kTEyLeU5z8...`,
+  `1Y2JW1BUY6Q...`, `1sXXbiT3jIU...`) y las 286 guías que dependen de ellos siguen sin procesar. No es
+  este error: es que esas carpetas no existen, fueron movidas o no están compartidas con la cuenta
+  de servicio `driveenviopdf-7a4b8936208f.json` (permiso lector y escritor).

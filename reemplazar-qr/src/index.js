@@ -19,6 +19,9 @@ Opciones:
   -s, --salida    PDF de salida (por defecto: <entrada>-qr-nuevo.pdf)
   -p, --pagina    Número de página donde está el QR (por defecto: 1)
   -d, --dpi       Resolución del render para detectar el QR (por defecto: 150)
+  -t, --tmp       Carpeta donde crear el render temporal (por defecto: os.tmpdir()).
+                  mkdtemp no crea el padre, así que si esa carpeta no existe el
+                  render falla; conviene apuntar a una que sí exista.
   -h, --ayuda     Muestra esta ayuda
 
 Ejemplo:
@@ -32,6 +35,7 @@ function parsearArgs(argv) {
     salida: null,
     pagina: 1,
     dpi: 150,
+    tmp: null,
   };
   const flags = {
     "-e": "entrada",
@@ -44,6 +48,8 @@ function parsearArgs(argv) {
     "--pagina": "pagina",
     "-d": "dpi",
     "--dpi": "dpi",
+    "-t": "tmp",
+    "--tmp": "tmp",
   };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
@@ -143,7 +149,10 @@ async function main() {
     args.salida ||
     args.entrada.replace(/\.pdf$/i, "") + "-qr-nuevo.pdf";
 
-  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "reemplazar-qr-"));
+  // mkdtemp crea la carpeta final pero no el padre, así que se asegura.
+  const baseTmp = args.tmp || os.tmpdir();
+  fs.mkdirSync(baseTmp, { recursive: true });
+  const tmp = fs.mkdtempSync(path.join(baseTmp, "reemplazar-qr-"));
   try {
     console.log(`Leyendo: ${args.entrada} (página ${args.pagina})`);
     const pngPath = renderizarPagina(args.entrada, args.pagina, args.dpi, tmp);
