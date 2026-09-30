@@ -22,6 +22,9 @@ Opciones:
   -t, --tmp       Carpeta donde crear el render temporal (por defecto: os.tmpdir()).
                   mkdtemp no crea el padre, así que si esa carpeta no existe el
                   render falla; conviene apuntar a una que sí exista.
+  -b, --pdftoppm  Ruta o nombre del binario pdftoppm (por defecto: pdftoppm, o sea
+                  el que esté en el PATH). En la tarea programada de Windows el PATH
+                  no lo trae, así que ahí hay que pasar la ruta absoluta.
   -h, --ayuda     Muestra esta ayuda
 
 Ejemplo:
@@ -36,6 +39,7 @@ function parsearArgs(argv) {
     pagina: 1,
     dpi: 150,
     tmp: null,
+    pdftoppm: "pdftoppm",
   };
   const flags = {
     "-e": "entrada",
@@ -50,6 +54,8 @@ function parsearArgs(argv) {
     "--dpi": "dpi",
     "-t": "tmp",
     "--tmp": "tmp",
+    "-b": "pdftoppm",
+    "--pdftoppm": "pdftoppm",
   };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
@@ -75,20 +81,34 @@ function parsearArgs(argv) {
   return args;
 }
 
-function renderizarPagina(pdfPath, pagina, dpi, directorio) {
+function renderizarPagina(pdfPath, pagina, dpi, directorio, pdftoppm) {
   const salida = path.join(directorio, "pagina");
-  execFileSync("pdftoppm", [
-    "-png",
-    "-r",
-    String(dpi),
-    "-f",
-    String(pagina),
-    "-l",
-    String(pagina),
-    "-singlefile",
-    pdfPath,
-    salida,
-  ]);
+  try {
+    execFileSync(pdftoppm, [
+      "-png",
+      "-r",
+      String(dpi),
+      "-f",
+      String(pagina),
+      "-l",
+      String(pagina),
+      "-singlefile",
+      pdfPath,
+      salida,
+    ]);
+  } catch (err) {
+    // ENOENT es lo que sale cuando el binario no está en el PATH, que es lo que
+    // pasa en la tarea programada de Windows. El mensaje de Node ("spawnSync
+    // pdftoppm ENOENT") no dice nada útil, así que se traduce.
+    if (err.code === "ENOENT") {
+      throw new Error(
+        `no se encontró pdftoppm ("${pdftoppm}"). Es de poppler-utils y hace ` +
+          `falta siempre, también en producción: es lo que rasteriza el PDF para ` +
+          `detectar el QR. Instalalo, o pasá la ruta absoluta con --pdftoppm.`
+      );
+    }
+    throw err;
+  }
   return `${salida}.png`;
 }
 
@@ -155,7 +175,13 @@ async function main() {
   const tmp = fs.mkdtempSync(path.join(baseTmp, "reemplazar-qr-"));
   try {
     console.log(`Leyendo: ${args.entrada} (página ${args.pagina})`);
-    const pngPath = renderizarPagina(args.entrada, args.pagina, args.dpi, tmp);
+    const pngPath = renderizarPagina(
+      args.entrada,
+      args.pagina,
+      args.dpi,
+      tmp,
+      args.pdftoppm
+    );
 
     const qr = detectarQr(pngPath);
     if (!qr) {

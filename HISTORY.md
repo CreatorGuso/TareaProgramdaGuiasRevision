@@ -1406,3 +1406,43 @@ Con un PDF real, forzando `TEMP` a una ruta inexistente:
   `1Y2JW1BUY6Q...`, `1sXXbiT3jIU...`) y las 286 guías que dependen de ellos siguen sin procesar. No es
   este error: es que esas carpetas no existen, fueron movidas o no están compartidas con la cuenta
   de servicio `driveenviopdf-7a4b8936208f.json` (permiso lector y escritor).
+
+### Corolario: `spawnSync pdftoppm ENOENT` en producción
+
+Al corregir lo anterior, la corrida llegó un paso más allá y falló en todos los documentos:
+
+```
+7/01/260000418600: reemplazar-qr falló: Error: spawnSync pdftoppm ENOENT
+```
+
+Nada que ver con el temporal. `pdftoppm` (poppler-utils) **no está en el PATH** del proceso que
+corre la app en el servidor: la tarea programada de Windows hereda un PATH mínimo, sin poppler. El
+error de `mkdtemp` de antes lo tapaba, porque `reemplazar-qr` creaba el temporal antes de
+rasterizar.
+
+Aclaración de lectura del log: `PDF en Drive [id] nombre.pdf` (server.js:314) significa **encontrado
+en Drive**, no subido. Se loguea antes de reemplazar el QR, así que esas líneas no son prueba de que
+el reemplazo haya funcionado.
+
+El arreglo es no depender del PATH:
+
+| Archivo | Cambio |
+|---------|--------|
+| `src/config/index.js` | Nuevo bloque `herramientas.pdftoppm` / `herramientas.zbarimg`, con `PDFTOPPM` y `ZBARIMG` del `.env` y default al nombre a secas |
+| `reemplazar-qr/src/index.js` | Nueva opción `-b, --pdftoppm <ruta>` (default `pdftoppm`). `renderizarPagina()` traduce el `ENOENT` de Node, que no dice nada útil, a un mensaje que sí dice qué falta y cómo se arregla |
+| `src/services/qr.service.js` | `reemplazar()` pasa `--pdftoppm` con la ruta de config; `leerQr()` usa las rutas configuradas en vez de los literales |
+
+Con eso, en producción:
+
+```ini
+# .env de C:\inetpub\wwwroot\api_CPE
+PDFTOPPM=C:\poppler\Library\bin\pdftoppm.exe
+```
+
+La ruta se obtiene con `where pdftoppm` en un cmd donde sí funcione. Si `where` no devuelve nada,
+poppler no está instalado en el servidor y hay que instalarlo (los binarios de Windows de
+https://github.com/oschwartz10612/poppler-windows). Con el default (`pdftoppm` a secas) todo sigue
+funcionando igual que antes en los equipos donde sí está en el PATH.
+
+Verificado con un PATH sin poppler: sin `--pdftoppm` sale el mensaje explicativo, y con la ruta
+absoluta el PDF sale con el QR nuevo y `zbarimg` lo lee bien.

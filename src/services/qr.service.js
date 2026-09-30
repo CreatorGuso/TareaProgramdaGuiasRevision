@@ -2,6 +2,7 @@ const { execFile } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 const logger = require('../utils/logger');
+const config = require('../config');
 
 const SCRIPT = path.join(__dirname, '../../reemplazar-qr/src/index.js');
 
@@ -55,7 +56,7 @@ class QrService {
     await new Promise((resolve, reject) => {
       execFile(
         'node',
-        [SCRIPT, '--entrada', entrada, '--qr', contenidoQr, '--salida', destino, '--tmp', dirTemporal],
+        [SCRIPT, '--entrada', entrada, '--qr', contenidoQr, '--salida', destino, '--tmp', dirTemporal, '--pdftoppm', config.herramientas.pdftoppm],
         { timeout: 120000, encoding: 'utf8' },
         (error, stdout, stderr) => {
           if (error) {
@@ -88,7 +89,7 @@ class QrService {
     const prefijo = rutaPdf.replace(/\.pdf$/i, '') + '-lectura';
     let imagenes = [];
     try {
-      await correr('pdftoppm', [
+      await correr(config.herramientas.pdftoppm, [
         '-png',
         '-r', String(dpi),
         '-f', String(pagina),
@@ -104,13 +105,14 @@ class QrService {
 
       for (const imagen of imagenes) {
         // zbarimg sale con código 4 cuando la imagen no tiene código de barras.
-        const { salida } = await correr('zbarimg', ['--quiet', '--raw', imagen]);
+        const { salida } = await correr(config.herramientas.zbarimg, ['--quiet', '--raw', imagen]);
         if (salida) return salida;
       }
       return null;
     } catch (error) {
       throw new Error(
-        `no se pudo leer el QR del PDF (hacen falta pdftoppm y zbarimg): ${error.message}`
+        `no se pudo leer el QR del PDF (hacen falta pdftoppm y zbarimg, ` +
+        `configurables con PDFTOPPM y ZBARIMG en el .env): ${error.message}`
       );
     } finally {
       await Promise.all(

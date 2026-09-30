@@ -43,4 +43,15 @@ module.exports = {
   drive: {
     credenciales: path.join(__dirname, '../../driveenviopdf-7a4b8936208f.json'),
   },
+
+  // Binarios del sistema. En la tarea programada de Windows el PATH heredado no
+  // trae poppler, así que `pdftoppm` a secas no se encuentra y reemplazar-qr
+  // falla con `spawnSync pdftoppm ENOENT`. Con PDFTOPPM en el .env se le pasa la
+  // ruta absoluta y deja de importar el PATH.
+  // pdftoppm hace falta SIEMPRE, también en producción: es lo que rasteriza el PDF
+  // para detectar el QR. zbarimg solo se usa en el comando `probar`.
+  herramientas: {
+    pdftoppm: process.env.PDFTOPPM || 'pdftoppm',
+    zbarimg: process.env.ZBARIMG || 'zbarimg',
+  },
 };
