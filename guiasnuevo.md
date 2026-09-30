@@ -22,15 +22,15 @@ spPyOValidaGuia
 - `Estado` **no** es el estado del documento, es una clasificación del SP:
   - `Estado = 1` → emitido pero **no** aceptado por SUNAT. **No se procesan**, los sube el ERP.
   - `Estado = 2` → aceptado por SUNAT, solo falta el QR. **Estos se procesan.**
-- El SP filtra `len(codigovalidacion) = 0`, así que al marcar esa columna el documento deja
+- El SP filtra `len(codigovalidacion) = 0`, así que al guardar ahí la URL del QR el documento deja
   de salir en la siguiente corrida. No hay que marcar nada más.
-- **`codigovalidacion` es `CHAR(4)`, no un campo para URLs.** Para las guías (`idtipo = '09'`) el ERP
-  no la usa: siempre está vacía y sirve solo de marcador. La URL del QR que devuelve SUNAT mide unos
-  250 caracteres y **no entra**: guardar la URL ahí falla con
-  `String or binary data would be truncated` y la guía nunca deja de salir del SP, con lo que se
-  reprocesa para siempre. Lo que se escribe es la marca de 4 caracteres `QR` (constante `MARCA_QR`
-  en `documento.repository.js`, cambiala ahí si tu ERP usa otra convención). El QR va impreso en el
-  PDF, que es donde importa; la URL no se guarda en ningún lado.
+- **`codigovalidacion` es `nvarchar(490)` y ahí va la URL del QR.** La URL que devuelve SUNAT
+  (`https://e-factura.sunat.gob.pe/.../descargaqr?hashqr=...`) mide unos 190 caracteres y entra
+  holgada. La columna hace de marcador y de enlace: el SP deja de devolver la guía y además queda
+  el link que se puede consultar. Para las guías (`idtipo = '09'`) el ERP no la usa.
+
+  > Antes era `char(4)` y la URL no entraba (`String or binary data would be truncated`). Fue un
+  > `ALTER TABLE` en las 10 bases; comprobado el 2026-09-30 que las 10 están en `nvarchar(490)`.
 
 ### La corrida diaria: `todo`
 
@@ -81,7 +81,7 @@ Por cada guía pendiente:
 4. Consulta a SUNAT `GET .../gem/comprobantes/envios/{ticket}` → CDR → `qr_url`.
 5. Busca el PDF en la carpeta `DriveID` de esa guía y reemplaza el QR.
 6. Sube a **esa misma carpeta** el PDF nuevo (mismo nombre) y el CDR (mismo nombre, `.xml`).
-7. Marca la guía en `documentos_sve.codigovalidacion` con la marca de 4 caracteres `QR`.
+7. Guarda la URL del QR en `documentos_sve.codigovalidacion`.
 
 Las guías se procesan **empresa por empresa**: se abre la conexión, se procesa todo lo de esa
 empresa y se cierra antes de pasar a la siguiente. La conexión a `admin` solo se usa para leer
@@ -105,7 +105,7 @@ de empresas se procesa normal. Al final se imprime un resumen con el motivo de c
 El orden de escritura importa, para que una falla nunca deje un documento marcado sin estar listo:
 
 ```
-descargar -> reemplazar QR -> subir PDF -> subir CDR -> marcar codigovalidacion
+descargar -> reemplazar QR -> subir PDF -> subir CDR -> guardar la URL en codigovalidacion
 ```
 
 Si se corta en cualquier punto, `codigovalidacion` sigue vacío y el documento vuelve a salir en la
@@ -189,7 +189,7 @@ node src/server.js pendientes --limite 5    # la columna DriveID viene en la tab
 | 7 | Buscar el PDF en la carpeta `DriveID` | ✅ | `drive.service.js` |
 | 8 | Reemplazar el QR en el PDF | ✅ | `qr.service.js` → `reemplazar-qr/` |
 | 9 | Subir PDF + CDR a la carpeta `DriveID` | ✅ | `drive.service.js → subir()` (usa `files.update`; no borra nada) |
-| 10 | Marcar la guía en `codigovalidacion` | ✅ | `documento.repository.js → marcarQrReemplazado()` → `codigovalidacion = 'QR'` |
+| 10 | Guardar la URL del QR en `codigovalidacion` | ✅ | `documento.repository.js → guardarQrUrl()` (URL completa del CDR) |
 | 11 | Flujo completo sin escribir (QR verificado) | ✅ | `node src/server.js probar` |
 
 ## Estructura

@@ -317,7 +317,7 @@ async function procesarGuia(fila, conexion, opciones = {}) {
     logger.info(
       `[SIMULACIÓN] ${etiqueta}: se habría escrito el QR en ${archivo.name} ` +
         `subido el CDR como ${archivo.name.replace(/\.pdf$/i, '')}.xml en la carpeta ` +
-        `${carpeta} y marcado ${idEmpresa}/${idDocumento}.codigovalidacion`
+        `${carpeta} y guardado el enlace del QR en ${idEmpresa}/${idDocumento}.codigovalidacion`
     );
     return { estado: 'simulado' };
   }
@@ -407,14 +407,14 @@ async function procesarGuia(fila, conexion, opciones = {}) {
     }
     await driveService.subir(resultado.rutaCdr, nombreCdr, carpeta);
 
-    // Recién después de subir el PDF se marca el documento, para que una falla
-    // en Drive no deje el documento marcado como procesado. Se escribe la marca
-    // de 4 caracteres, NO la URL del QR: esa columna es CHAR(4) y una URL no
-    // entra (ver documento.repository.marcarQrReemplazado).
-    const actualizadas = await documentoRepository.marcarQrReemplazado(
+    // Recién después de subir el PDF se guarda la URL del QR, para que una falla
+    // en Drive no deje el documento marcado como procesado. Es lo que hace que la
+    // guía deje de salir de spPyOValidaGuia (`len(codigovalidacion) = 0`).
+    const actualizadas = await documentoRepository.guardarQrUrl(
       pool,
       idEmpresa,
-      idDocumento
+      idDocumento,
+      resultado.qrUrl
     );
     if (!actualizadas) {
       throw new Error(`no se actualizó ninguna fila de ${idEmpresa}/${idDocumento}`);
@@ -422,7 +422,7 @@ async function procesarGuia(fila, conexion, opciones = {}) {
 
     logger.info(
       `${etiqueta}: QR reemplazado en Drive (${archivo.name}, ${nombreCdr}) ` +
-        `y guía marcada en codigovalidacion`
+        `y URL guardada en codigovalidacion`
     );
     return { estado: 'procesado' };
   } catch (error) {

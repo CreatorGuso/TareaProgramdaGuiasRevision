@@ -71,7 +71,8 @@ Con eso ya está y se puede correr la prueba de punta a punta sobre las ~265 gu�
 | 2026-09-28 (4) | Prueba del flujo con 3 empresas |
 | 2026-09-29 | La carpeta de Drive pasa a ser por guía (`DriveID` del SP) |
 | 2026-09-29 (2) | `probar`: flujo completo sin escribir, con el QR verificado |
-| 2026-09-29 (3) | `todo`: la corrida completa (SP + procesar). `codigovalidacion` es CHAR(4): se escribe una marca, no la URL |
+| 2026-09-29 (3) | `todo`: la corrida completa (SP + procesar) |
+| 2026-09-30 | `codigovalidacion` ampliada a `nvarchar(490)`: se guarda la URL del QR, no una marca |
 
 ---
 
@@ -1248,7 +1249,7 @@ refrescar el listado), `pendientes`, `verificar`, `listar`, `drive *`.
 | El QR impreso es el de SUNAT | `probar`, 4/4 coincidencia exacta contra la URL del CDR |
 | El PDF se sube a la carpeta correcta de la guía | 4 empresas distintas, cada una en su `DriveID` |
 | El CDR se sube con el nombre del PDF, reemplazando | listado de Drive, sin duplicados |
-| La marca en la base hace que el SP deje de devolver la guía | sentencia real dentro de una transacción con `ROLLBACK`, en 4 bases |
+| La URL del QR queda guardada y el SP deja de devolver la guía | sentencia real dentro de una transacción con `ROLLBACK`, en 4 bases, con la URL completa (191 caracteres) |
 | El SP se puede correr | 273 guías de 5 empresas, todas con `DriveID` |
 | El archivo de pendientes queda con lo que falta | reescrito al terminar, con las 273 filas y después solo las no procesadas |
 | No se puede correr dos veces a la vez | candado en `tmp/.corrida.lock`, se recupera si el proceso ya no existe |
@@ -1257,10 +1258,75 @@ refrescar el listado), `pendientes`, `verificar`, `listar`, `drive *`.
 
 - **Correrlo de verdad.** Solo se procesaron 2 guías (las de la corrida accidental). Con
   `node src/server.js todo` se procesan las 273.
-- **Ampliar `codigovalidacion` no hace falta.** La marca `'QR  '` cabe en `char(4)` y el SP solo
-  mira `len(codigovalidacion) = 0`. Se puede ampliar igual, no se rompe, pero es un ALTER TABLE en
-  una tabla del ERP en producción a cambio de nada.
+- **33 guías quedaron con la marca vieja `'QR  '`** en vez de la URL (12 en frutiver, 21 en
+  PuratosSur), de las corridas anteriores a que se ampliara la columna. Esas no vuelven a salir del
+  SP, así que hay que recoverir la URL a mano.
 - **Fuera del alcance de la app, pero conviene:** `driveenviopdf-7a4b8936208f.json` y
   `proyectoalmacenamientowhatsapp-5798b0480329.json` están en git con las claves privadas dentro, y
   los 12 XML de `CDR/` que estaban versionados aparecen como borrados. Sacar las claves del
   historial de git y rotarlas.
+
+---
+
+## Sesión 2026-09-30 — `codigovalidacion` ampliada: vuelve a guardarse la URL del QR
+
+### El problema reportado
+
+> En la actualización de `codigovalidacion` se guarda `QR` y no el enlace.
+
+Tenía razón. La sesión del 2026-09-29 (3) llegó a la conclusión de que **la columna no admitía URLs**
+y, para que la guía dejara de salir del SP, cambió `guardarQrUrl()` por `marcarQrReemplazado()`, que
+escribía la constante `'QR  '`. Ese era el workaround correcto **con la columna de antes**, pero dejó
+de serlo.
+
+### Por qué ya no aplica
+
+Se releyeron `sys.columns` en **las 10 BDs con `Guia = 1`**:
+
+| conexión | BD | tipo de `codigovalidacion` |
+|---|---|---|
+| 4, 7, 8, 11, 12, 15, 18, 20, 27, 30 | las 10 | **`nvarchar(490)`** |
+
+Se ampliaron en algún momento entre el 2026-09-29 y hoy. La URL real de SUNAT, leída de un CDR, mide
+**191 caracteres**:
+
+```
+https://e-factura.sunat.gob.pe/v1/contribuyente/gre/comprobantes/descargaqr?hashqr=ZVo/ylfxLxV...
+```
+
+Entra holgada. El error `String or binary data would be truncated` que originó el workaround ya
+no puede ocurrir, y el `ALTER TABLE` que el 2026-09-29 se recomendó evitar por "cambio de nada" ya
+estaba hecho.
+
+### El arreglo
+
+`marcarQrReemplazado()` vuelve a ser `guardarQrUrl()`, y ahora escribe la URL completa:
+
+| Archivo | Cambio |
+|---------|--------|
+| `src/database/documento.repository.js` | Se eliminó `MARCA_QR` y `marcarQrReemplazado()`. Nueva constante `LARGO_CODIGO_VALIDACION = 490` y `guardarQrUrl(pool, idEmpresa, idDocumento, qrUrl)`, que escribe `@qrurl` con `sql.NVarChar(490)`. Falla con mensaje claro si la URL viene vacía o si mide más de 490 caracteres (mejor que dejar que SQL trunque y quede un enlace inservible) |
+| `src/server.js` | Pasa `resultado.qrUrl` a `guardarQrUrl()`. Los mensajes de `simular` y de éxito dicen "guardado el enlace del QR" |
+| `guiasnuevo.md` / `HISTORY.md` | Corregido: en varios lugares se afirmaba que la URL no se guardaba y que la columna era `char(4)` |
+
+### Verificación
+
+Sentencia real con la URL de un CDR, en transacción con `ROLLBACK`, en 4 BDs:
+
+```
+id=8   frutiver    T001 -00003790: filas=1 largo=191 completa=SI
+id=18  PuratosSur  T001 -00002143: filas=1 largo=191 completa=SI
+id=30  KaiserCorp  TR20 -00000253: filas=1 largo=191 completa=SI
+id=4   coprosat    T001 -00000593: filas=1 largo=191 completa=SI
+```
+
+`completa=SI` es comparación carácter por carácter contra la URL del CDR, no solo el prefijo. Nada
+quedó persistido. Casos borde: URL de 600 caracteres y URL vacía dan error propio y no llegan al
+UPDATE.
+
+### Lo que queda sucio
+
+33 guías de corridas anteriores quedaron con `'QR  '` en vez de la URL: **12 en frutiver** y **21 en
+PuratosSur** (el resto de las 10 BDs tiene `codigovalidacion` vacía en todos los `idtipo = '09'`).
+Como el SP filtra `len(codigovalidacion) = 0`, esas 33 ya no salen del listado: hay que pedirles la
+URL a SUNAT por su `id_sunat` y guardarla.
+

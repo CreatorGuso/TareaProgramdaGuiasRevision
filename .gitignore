@@ -1,5 +1,9 @@
 node_modules
 
+# Logs de runtime: se regeneran en cada corrida, no se versionan.
+# El directorio se conserva con un .gitkeep.
+logs/*.log
+
 # Listado de guías pendientes que genera `node src/server.js exportar`.
 # Es un snapshot: se regenera con el SP, no tiene sentido versionarlo.
 guias-pendientes.json

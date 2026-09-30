@@ -2,11 +2,11 @@ const { getConnection, sql } = require('../database/connection');
 
 const txt = (valor) => String(valor ?? '').trim();
 
-// Valor que se deja en documentos_sve.codigovalidacion (CHAR(4)) para marcar que
-// el QR de esa guía ya fue reemplazado por el de SUNAT. Es lo único que importa:
-// spPyOValidaGuia deja de devolver la guía cuando len(codigovalidacion) > 0.
-// Si en su ERP usan otra convención, se cambia acá y nada más.
-const MARCA_QR = 'QR  ';
+// Tamaño de documentos_sve.codigovalidacion (nvarchar(490) en las 10 BDs con
+// Guia = 1, comprobado el 2026-09-30). La URL de descargaqr de SUNAT mide unos
+// 190 caracteres, así que entra holgada. Es el límite para no dejar que el propio
+// motor de SQL trunque la URL y deje un enlace inservible.
+const LARGO_CODIGO_VALIDACION = 490;
 
 class DocumentoRepository {
   /**
@@ -65,32 +65,46 @@ class DocumentoRepository {
   }
 
   /**
-   * Marca la guía como having el QR reemplazado.
+   * Guarda en `documentos_sve.codigovalidacion` la URL del QR que devolvió SUNAT
+   * en el CDR (`cbc:DocumentDescription`, del tipo
+   * `https://e-factura.sunat.gob.pe/.../descargaqr?hashqr=...`).
    *
-   * OJO: aquí NO se guarda la URL del QR. La columna `codigovalidacion` de
-   * `documentos_sve` es CHAR(4) —no cabe una URL de SUNAT, que mide unos 250
-   * caracteres— y para las guías (idtipo '09') el ERP no la usa: siempre está
-   * vacía. Lo que hace es de marcador: spPyOValidaGuia pide las guías con
-   * `len(codigovalidacion) = 0`, así que con ponerle cualquier valor no vacío la
-   * guía deja de salir del listado y no se vuelve a procesar.
+   * Con esto la guía deja de salir de `spPyOValidaGuia`, que solo devuelve las
+   * que tienen `len(codigovalidacion) = 0`, así que es a la vez el marcador de
+   * "ya procesada" y el enlace que va impreso en el PDF.
    *
-   * Se usa CHAR(4) con un valor corto y fijo en vez de la URL a propósito: una
-   * URL recortada a 4 caracteres dejaría el PDF con un QR inservible.
+   * La columna es `nvarchar(490)` en las 10 bases con `Guia = 1`. Antes era
+   * `char(4)` y por eso se escribía una marca de 4 caracteres; ya no es así.
    *
    * @param {import('mssql').ConnectionPool} pool - pool de la BD de la empresa
    * @param {string} idEmpresa
    * @param {string} idDocumento
-   * @param {string} [marca] - valor a dejar en codigovalidacion (4 caracteres)
+   * @param {string} qrUrl - URL del QR, tal cual viene en el CDR
    * @returns {Promise<number>} filas actualizadas
    */
-  async marcarQrReemplazado(pool, idEmpresa, idDocumento, marca = MARCA_QR) {
+  async guardarQrUrl(pool, idEmpresa, idDocumento, qrUrl) {
+    const url = txt(qrUrl);
+    if (!url) {
+      throw new Error(
+        `se intentó marcar ${idEmpresa}/${idDocumento} sin la URL del QR del CDR`
+      );
+    }
+    // Mejor fallar acá que dejar que SQL Server corte la URL: una URL truncada
+    // marcaría la guía como procesada y dejaría un enlace que no abre nada.
+    if (url.length > LARGO_CODIGO_VALIDACION) {
+      throw new Error(
+        `la URL del QR de ${idEmpresa}/${idDocumento} mide ${url.length} caracteres ` +
+          `y codigovalidacion admite ${LARGO_CODIGO_VALIDACION}: hay que ampliar la columna`
+      );
+    }
+
     const resultado = await pool.request()
       .input('idempresa', sql.Char(2), String(idEmpresa))
       .input('iddocumento', sql.Char(12), String(idDocumento))
-      .input('marca', sql.Char(4), String(marca).slice(0, 4))
+      .input('qrurl', sql.NVarChar(LARGO_CODIGO_VALIDACION), url)
       .query(`
         UPDATE documentos_sve
-        SET codigovalidacion = @marca
+        SET codigovalidacion = @qrurl
         WHERE idempresa = @idempresa
           AND iddocumento = @iddocumento
           AND idtipo = '09'
