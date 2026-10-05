@@ -21,3 +21,6 @@ CDR/
 # Clave privada de la cuenta de servicio de Google Drive, la que sube y lee los PDF.
 driveenviopdf-7a4b8936208f.json
 proyectoalmacenamientowhatsapp-5798b0480329.json
+
+# Certificados digitales (PFX) de las empresas: nunca al repo.
+certificates/
