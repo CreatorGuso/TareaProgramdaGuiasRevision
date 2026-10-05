@@ -17,7 +17,9 @@ Opciones:
   -e, --entrada   PDF del comprobante a procesar (obligatorio)
   -q, --qr        Contenido del QR nuevo: texto o URL (obligatorio)
   -s, --salida    PDF de salida (por defecto: <entrada>-qr-nuevo.pdf)
-  -p, --pagina    Número de página donde está el QR (por defecto: 1)
+  -p, --pagina    Número de página donde está el QR (por defecto: se busca en todas,
+                  desde la 1, y se usa la primera donde aparezca; hay guías de 2
+                  hojas con el QR en la segunda)
   -d, --dpi       Resolución del render para detectar el QR (por defecto: 150)
   -t, --tmp       Carpeta donde crear el render temporal (por defecto: os.tmpdir()).
                   mkdtemp no crea el padre, así que si esa carpeta no existe el
@@ -36,7 +38,7 @@ function parsearArgs(argv) {
     entrada: null,
     qr: null,
     salida: null,
-    pagina: 1,
+    pagina: null,
     dpi: 150,
     tmp: null,
     pdftoppm: "pdftoppm",
@@ -76,7 +78,7 @@ function parsearArgs(argv) {
     }
     args[key] = valor;
   }
-  args.pagina = parseInt(args.pagina, 10);
+  args.pagina = args.pagina === null ? null : parseInt(args.pagina, 10);
   args.dpi = parseInt(args.dpi, 10);
   return args;
 }
@@ -174,24 +176,37 @@ async function main() {
   fs.mkdirSync(baseTmp, { recursive: true });
   const tmp = fs.mkdtempSync(path.join(baseTmp, "reemplazar-qr-"));
   try {
-    console.log(`Leyendo: ${args.entrada} (página ${args.pagina})`);
-    const pngPath = renderizarPagina(
-      args.entrada,
-      args.pagina,
-      args.dpi,
-      tmp,
-      args.pdftoppm
-    );
+    const doc = await PDFDocument.load(fs.readFileSync(args.entrada));
+    const totalPaginas = doc.getPageCount();
 
-    const qr = detectarQr(pngPath);
+    // Sin --pagina se recorren todas: hay guías de 2 hojas con el QR en la
+    // segunda. Se usa la primera página donde aparezca un QR.
+    const candidatas = args.pagina
+      ? [args.pagina]
+      : Array.from({ length: totalPaginas }, (_, i) => i + 1);
+
+    let qr = null;
+    let numPagina = null;
+    for (const n of candidatas) {
+      console.log(`Leyendo: ${args.entrada} (página ${n} de ${totalPaginas})`);
+      const pngPath = renderizarPagina(args.entrada, n, args.dpi, tmp, args.pdftoppm);
+      qr = detectarQr(pngPath);
+      if (qr) {
+        numPagina = n;
+        break;
+      }
+    }
     if (!qr) {
-      console.error("No se detectó ningún QR en la página indicada.");
+      console.error(
+        args.pagina
+          ? "No se detectó ningún QR en la página indicada."
+          : `No se detectó ningún QR en ninguna de las ${totalPaginas} página(s).`
+      );
       process.exit(2);
     }
 
     const escala = 72 / args.dpi;
-    const doc = await PDFDocument.load(fs.readFileSync(args.entrada));
-    const pagina = doc.getPage(args.pagina - 1);
+    const pagina = doc.getPage(numPagina - 1);
     const { height: altoPdf } = pagina.getSize();
 
     const aPt = (v) => v * escala;
@@ -206,7 +221,7 @@ async function main() {
     const canAncho = ancho + padding * 2;
     const canAlto = alto + padding * 2;
 
-    console.log(`QR original detectado: "${qr.contenido}"`);
+    console.log(`QR original detectado en la página ${numPagina}: "${qr.contenido}"`);
     console.log(
       `  posición (pt): x=${x.toFixed(1)} y=${y.toFixed(1)} ` +
         `ancho=${ancho.toFixed(1)} alto=${alto.toFixed(1)}`
